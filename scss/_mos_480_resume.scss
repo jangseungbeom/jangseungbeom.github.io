@@ -1,0 +1,187 @@
+// mos_480_resume.scss
+
+#container{width: 100%; height: 100%; margin: 0 auto;}
+     #headBox{
+            width: 100%; 
+            height: auto;
+            box-sizing: border-box; 
+            padding: 8.3333vw /* 40px */ 20px;
+            background-color: $main2; 
+         >h1{
+            width: 36vw;
+            height:12vw; 
+            text-indent: -9999px;
+            >a{ 
+                width: 100%;
+                height: 100%;
+                display: block;
+                background-image: url("../img/name_logo.png"); 
+                background-position: top left;
+                background-repeat: no-repeat;
+                background-size: 100%; }
+         }
+         >h2{    
+            width: 100%;
+            height: 8.75vw; 
+            color: $main2;
+             font-size: 8.75vw;
+             font-weight: bold;
+         }
+          .icon_box{
+                z-index: 111;
+                width: 8.3333vw;
+                height: 8.3333vw;
+                margin: 0 auto;
+                top: 12.5vw; /* 60px */
+                right: 8.3333vw; /* 40px */
+                cursor: pointer;
+                position: absolute;
+                  
+                >.menu_icon{
+                -webkit-transition: all 0.4s ease-out;
+                transition: all 0.4s ease-out;    
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 8.3333vw /* 40px */;
+                height: 2px;
+                background-color:$main;
+                    
+                    &:before, &:after{
+                    -webkit-transition: all 0.25s ease-out;
+                    transition: all 0.25s ease-out;
+                    position: absolute;
+                    width: 8.3333vw /* 40px */;
+                    height: 2px;
+                    background-color:$main;
+                    content:'';}
+                    &:before{
+                        top: -2.0833vw /* -10px */;
+                        left: 0;}
+                    &:after{
+                        top: 2.0833vw /* 10px */;
+                        left: 0;}
+                  }//.icon
+                    
+                  &:hover{
+                    .menu_icon{
+                      background-color:$main3;
+                      &:before{
+                        top: -3.125vw /* -15px */;
+                        background-color: $main;}
+                      &:after{
+                        top: 3.125vw /* 15px */;
+                        background-color:$main;}
+                    }
+                  }
+                  &.open{
+                    .menu_icon{
+                      -webkit-transition: all 0.4s ease-out;
+                      transition: all 0.4s ease-out;    
+                      background-color: transparent;
+                      -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      &:before{
+                        top:0;
+                        -webkit-transform: rotate(45deg);
+                          transform: rotate(45deg);
+                      }
+                      &:after{
+                        top:0;
+                        -webkit-transform: rotate(-45deg);
+                          transform: rotate(-45deg);
+                      }
+                    }//.icon
+                  }//.icon_box .open
+                }//.icon_box /*menu_btn 이벤트*/
+         
+} //#headBox
+     #content{ width: 100%; 
+            height: auto; 
+            >#menu{width: 100%; 
+                height: 100%; 
+                box-sizing: border-box;
+                padding: 28.75vw /* 138px */ 6.25vw /* 30px */ 4.1667vw /* 20px */;
+                position: absolute;
+                z-index: 110; 
+                top: 0;
+                left: 0;    
+                background-color: rgba($main2, 0.9);
+
+                >ul{width: 100%; height: 100%;
+                    text-align: center;
+                    >li{margin-bottom: 6.042vw /* 29px */;
+                        >a{ width: 100%; height: 100%;
+                            display: block;
+                            text-decoration: none;
+                            color: $white;
+                            font-family: "Exo 2";
+                             font-size: 8.3333vw;
+                            font-weight: normal 400;
+                            &:active{color:$main3;}
+                        }// a
+                           &:nth-child(even){width: 100%; height: 0.4167vw; /* 4px */
+                            background-image: url("../img/line_img.png");
+                            background-position: center left;
+                            background-repeat: repeat;
+                            overflow: hidden;
+                            margin-bottom: 6.042vw; /* 29px */
+                            opacity: 0.8; }
+                        &:last-child{background:none;}
+                    } // li
+                } // ul  
+            } // #menu
+             >#resumeBox{
+                width: 100%;
+                height: auto; 
+                box-sizing: border-box;
+                padding: 4.2vw  2.0833vw; /*20px 10px */ 
+                background-image: url("../img/cap_b_left.png"); 
+                background-position: top left;
+                background-repeat: no-repeat;
+                background-size: 95%; 
+                >ul{
+                    width: 100%;
+                    height: 100%;
+                    float: left;
+                    >li{
+                        
+                        background-color: $white;
+                        background-position: top center;
+                        background-repeat: no-repeat;
+                        border: 1px solid $main;
+                    }
+                    >.resume_img01{
+                        width: 100%;
+                        height: 295vw; /*1440px*/
+                        margin-bottom: 8.3333vw;
+                        background-image: url("../img/inforgraphic/mo_resume.png");
+                        background-size: 85%;
+                    }
+                    >.resume_img02{
+                        width: 100%;
+                        height: 200vw; /* 960px */
+                        background-image: url("../img/inforgraphic/mo_resume02.png");
+                        background-size: 85%;
+                        margin-bottom: 4vw;
+                    }
+                 } // ul
+            } //#resumeBox 
+        } // #content
+    #footBox{
+        width: 100%;
+        height: auto; /* 40px */
+        margin: 0 auto;
+        margin-bottom: 20px;
+        >p{
+                width: 100%;
+                height: 8vw;
+                color:$black2;
+                font-size: 0.1563vw; /* 12pt, 0.75em */
+                text-align: center;
+                font-weight: 200;
+                
+                
+        }
+} // #footBox

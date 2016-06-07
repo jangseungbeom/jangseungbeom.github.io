@@ -1,0 +1,11 @@
+#tWrap { width: 100%; height: 680px; margin: 0 auto; }
+#tWrap #headBox { width: 960px; height: 100px; background-color: #221814; }
+#tWrap #sideBox { width: 200px; height: 500px; float: left; background-color: #FFDC00; }
+#tWrap #tBox { width: 760px; height: 500px; float: left; box-sizing: border-box; padding: 40px 80px; background-color: #FFFFFF; }
+#tWrap #tBox > .na_forums { width: 100%; height: 100%; }
+#tWrap #tBox > .na_forums > caption { display: none; }
+#tWrap #tBox > .na_forums > tr { color: #221814; font-size: 0.875rem; }
+#tWrap #tBox > .na_forums > tr > th { font-weight: bold; text-align: center; border-bottom: 2px solid #221814; }
+#tWrap #footBox { width: 960px; height: 80px; float: left; background-color: #e5e5e5; }
+
+/*# sourceMappingURL=table.css.map */

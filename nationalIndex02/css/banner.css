@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,100);
+/* 메인 배너 구역 */
+#naBanner { width: 100%; height: 960px; position: relative; overflow: hidden; /* 배너 슬라이드 버튼 구역 */ /* 스크롤 버튼 구역 */ }
+#naBanner > #fadeBanner { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 503; background-image: url("../img/banner/background/main_bg01.png"); background-position: center center; background-repeat: repeat; }
+#naBanner > #fadeBanner > .fade_box { width: 960px; height: 100%; margin: 0 auto; box-sizing: border-box; padding: 20px 22px; }
+#naBanner > #fadeBanner > .fade_box > h2 { width: 49px; height: 68px; background-image: url("../img/logo/sinbol_logo.png"); background-position: center center; background-repeat: no-repeat; background-size: 80%; }
+#naBanner > #fadeBanner > .fade_box > p { width: 560px; height: 520px; margin: 0 auto; margin-top: 180px; color: #FFFFFF; font-size: 5rem; font-weight: bold; text-align: left; text-shadow: 1px 1px 1px #aaaaaa; }
+#naBanner > .na_banner_box { width: 300%; height: 100%; margin-left: -100%; }
+#naBanner > .na_banner_box > li { width: calc(100% / 3); height: 100%; float: left; z-index: -500; }
+#naBanner > .na_banner_box > li > span { width: 0; height: 0; display: none; overflow: hidden; }
+#naBanner > .na_banner_box > .banner_01 { background-image: url("../img/banner/background/main_bg02.jpg"); background-position: center center; }
+#naBanner > .na_banner_box > .banner_02 { background-image: url("../img/banner/background/main_bg01.png"); background-repeat: repeat; background-position: center center; }
+#naBanner > .na_banner_box > .banner_03 { background-image: url("../img/banner/background/main_bg03.jpg"); background-position: center center; }
+#naBanner > .na_banner_box > .banner_04 { background-image: url("../img/banner/background/main_bg04.jpg"); background-position: center center; }
+#naBanner > .na_banner_box > .banner_05 { background-image: url("../img/banner/background/main_bg05.jpg"); background-position: center center; }
+#naBanner > .na_btn { width: 50px; height: 100px; position: absolute; top: 20%; transition: all 0.5s; }
+#naBanner > .na_btn:hover i { color: #FFDC00; transform: scale(2); }
+#naBanner > .na_btn.na_left_btn { left: 92%; }
+#naBanner > .na_btn.na_right_btn { left: 95%; }
+#naBanner > .na_btn > button { width: 100%; height: 100%; cursor: pointer; background-color: transparent; }
+#naBanner > .na_btn > button > i { color: rgba(255, 220, 0, 0.5); font-size: 3rem; transition: all 0.5s; }
+#naBanner > .na_btn > button > span { width: 0; height: 0; display: block; overflow: hidden; }
+#naBanner #naScroll_btn { width: 52px; height: 72px; position: absolute; transition: all 0.5s; top: 85%; left: 50%; /* animation effect area */ -webkit-animation: myani 0.8s linear infinite; animation: myani 0.8s linear infinite; /* keyframes area */ }
+#naBanner #naScroll_btn:hover img { transform: scale(1.1); }
+#naBanner #naScroll_btn > button { width: 100%; height: 100%; cursor: pointer; background-color: rgba(34, 24, 20, 0.5); }
+#naBanner #naScroll_btn > button > img { width: 52px; height: 72px; display: block; transition: all 0.5s; }
+#naBanner #naScroll_btn > button > span { width: 0; height: 0; display: block; overflow: hidden; }
+@-webkit-keyframes myani { from { top: 85%; opacity: 0.3; }
+  50% { top: 86%; opacity: 1; }
+  to { top: 86.8%; opacity: 0.1; } }
+@keyframes myani { from { top: 85%; opacity: 0.3; }
+  50% { top: 86%; opacity: 1; }
+  to { top: 86.8%; opacity: 0.1; } }
+/* ___________________________ // #naBanner ________________________________________________ */
+#aboutBox { width: 100%; height: 726px; box-sizing: border-box; padding: 58px 46px 160px 0; background-color: #FFFFFF; }
+#aboutBox #about { width: 960px; height: 100%; }
+#aboutBox #about > h2 { width: 183px; height: 29px; float: left; margin-right: 20px; background-image: url("../img/article/about/ABOUT_US.png"); background-repeat: no-repeat; background-position: center center; }
+#aboutBox #about > h3 { width: 553px; height: 160px; margin-top: 148px; float: left; background-image: url("../img/logo/aboutLogo.png"); background-repeat: no-repeat; background-position: center center; }
+#aboutBox #about > p { width: 870px; height: 228px; color: #221814; margin-left: 44px; margin-top: 86px; float: left; font-size: 0.8rem; font-weight: normal; }
+
+/* __________________________________ //.about ____________________________________ */
+
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,320 @@
+// article.scss
+@charset "UTF-8";
+@import "./lib/basic.scss";
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,100);
+
+  #article { width: 100%; height: auto;
+        .bg_img {width: 100%; height: 38vh; background-attachment: fixed; }    
+        #newsBox{  width: 100%; height: 846px;  
+            background-color: $white; 
+            padding: 51px 10px 62px;
+            box-sizing: border-box; 
+            #na_news { width: 960px; height: 846px;
+                >a{display: block; text-decoration: none; }
+                h2 {@include h2_style; margin-bottom: 17px; }
+                h3 {width: 100%; height: 23px; float:left;
+                background-image: url("../img/article/news/Magazine.png");
+                background-repeat: no-repeat;
+                >a{width: 106px; height: 23px; display: inline-block; text-decoration: none; }// a
+                >p{width: 20px; height: 23px; float: left;
+                    background-image: url("../img/article/news/decor_img.png");
+                    background-repeat: no-repeat;}
+            }//h3
+                .news_date{width: 100%; height: 70px; float:left; 
+                    margin-top: 16px; margin-bottom: 8px;
+                    background-image: url("../img/article/news/date_img.png");
+                    background-repeat: no-repeat;
+                /*font-size: 3.5626rem;*/
+                    >span{width: 0; height: 0; display:block; overflow: hidden; }
+            }// p
+                a {width: 644px; height: 248px; float:left; display: block;  }
+                    dt {width: 345px; height: 248px; float: left;
+                        margin-right: 25px;
+                        background-image: url("../img/article/news/news_01.png");
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        >span{width: 0; height: 0; display: none; }
+               }// dt
+                .main_news_img{width: 345px; height: 248px;
+                    >a:hover{width: 345px; height: 100%;
+                          background-image: url("../img/article/news/news_hover.png");
+                          background-repeat: no-repeat;
+                          background-position: top left; } 
+            }// .main_news_img   
+                    dd {width: 274px; height: 248px; float: left; color:$black;
+                    &:nth-of-type(1){width: 274px; height: 82px; float: left;
+                        border-bottom: 1px solid $main;
+                        font-size:1.8125rem;font-weight: bold;
+//                        text-indent: 3px;
+                        }// &:nth-of-type(1)   
+                    &:nth-of-type(2){width: 251px; height: 14px; float: left;
+                        font-size: 0.6825rem;
+                        margin-top: 22px; margin-bottom: 38px; }
+                    &:nth-of-type(3){ width: 268px; height: 64px; float: left;
+                        font-size: 0.875rem; font-weight: normal; }    
+                }// dd
+                ul{width: 940px; height: 534px;
+                    >li {height: 237px; float:right; margin-top: 48px; margin-right: 18px;
+                        a{width:100%; height: 100%;}
+                }// li
+                .news_img1{width:263px ; height: 249px; float: left;
+                   margin: 0 0 0 32px;
+                    background-image: url("../img/article/news/news_02.png");
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    >a:hover{background-image: url("../img/article/news/news_hover01.png");
+                          background-repeat: no-repeat;
+                          background-position:center center; }
+                }// .news_img1
+                .news_img2{width: 326px ; float: left;
+                        background-image: url("../img/article/news/news_03.png");
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                     >a:hover{background-image: url("../img/article/news/news_hover02.png");
+                          background-repeat: no-repeat;
+                          background-position:center center; }
+                }// .news_img2
+                .news_img3{width: 326px ; float: left;
+                        background-image: url("../img/article/news/news_04.png");
+                        background-repeat: no-repeat;
+                        background-position: center center; 
+                    >a:hover{background-image: url("../img/article/news/news_hover03.png");
+                          background-repeat: no-repeat;
+                          background-position:center center; }
+                }// .news_img3
+                .news_img4{width: 251px ; float: left;
+                        margin-right: 0;
+                        background-image: url("../img/article/news/news_05.png");
+                        background-repeat: no-repeat;
+                        background-position: center center; 
+                    >a:hover{background-image: url("../img/article/news/news_hover04.png");
+                          background-repeat: no-repeat;
+                          background-position:center center; }
+                }// .news_img4
+            }// ul
+         }// #naNews
+    }// #newsBox
+/* ________________________________ .naNews ________________________________ */            
+  
+        #videoBox{width: 100%; height: auto; 
+            background-color: $black; padding: 52px 0;
+            box-sizing: border-box;  
+            #na_video {width: 960px; height: auto; overflow: hidden;  
+                h2 {@include h2_style; color:$white; margin-bottom: 39px;
+                font-family: 'Exo 2', sans-serif;}
+                .main_vd_box {width: 960px; height: 381px; margin: 0;
+                .main_vd{ width: 100%; height: 381px; margin-bottom: 61px; float: left;
+                    iframe {width: 668px; height: 100%;
+                        float: left; padding-left: 10px;
+                        overflow-y: hidden;}
+                    .vd_info_box{width: 216px; height: 313px; float:left;
+                        padding: 24px 36px 20px 10px;
+                        >h3 {width: 215px; height: 132px; padding-right: 36px;
+                            color: $main; font-family: 'myriad pro'; font-size: 1.5rem; 
+                            weight: bold; }
+                        >p {width: 215px; height: 205px; padding-right: 36px;
+                            color: $white; 
+                            font-family: 'myriad pro'; 
+                            font-size: 0.875rem; font-weight: normal;
+                        }// p
+                    }// .vdBox
+            }// .mainVd
+        }// .main_vd_box
+                .na_vd_gallery{width: 300%; height: 198px; margin-left: -100%;
+                    overflow: hidden;
+                    li{width: calc(100% / 9); height: 100%; float: left; 
+                        >a{width: 100%; height: 100%; display: block; 
+                            >span{width: 0; height: 0; display: block; overflow: hidden; }
+                            &:hover{width: 100%; height: 100%; 
+                                background-image: url("../img/article/video/vd_hover.png");
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                            }
+                        }// a
+                    }// li
+                    >.vg_box{background-size: 320px 198px;}
+                    >.vd_gall01{background-image: url("../img/article/video/thumbnail/01.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall02{background-image: url("../img/article/video/thumbnail/02.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall03{background-image: url("../img/article/video/thumbnail/03.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall04{background-image: url("../img/article/video/thumbnail/04.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall05{background-image: url("../img/article/video/thumbnail/05.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall06{background-image: url("../img/article/video/thumbnail/06.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall07{background-image: url("../img/article/video/thumbnail/07.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall08{background-image: url("../img/article/video/thumbnail/08.jpg");
+                        background-position: center center;
+                        background-repeat: no-repeat;}
+                    >.vd_gall09{background-image: url("../img/article/video/thumbnail/09.jpg");
+                        background-position: center center; 
+                        background-repeat: no-repeat;}
+                }// .na_vd_gallery
+        }// #naVideo
+    }// #videoBox
+/* ______________________________ // .naVideo __________________________________ */
+
+    #forumBox{width: 100%; height: auto; 
+        background-color: $white; 
+        padding: 52px 10px 150px 0;
+        box-sizing: border-box;        
+        #naForum { width: 960px; height: auto; 
+            h2 {width: 960px; height: auto; color: $black;
+                margin-bottom: 39px; 
+                font-family: 'Exo 2', sans-serif;
+                font-size: 4.25rem; font-weight:bold; text-align: center;}
+            p {font-size: 1.125rem; font-weight: bold; text-align: center; margin-bottom: 13px;
+                &:nth-of-type(1){color: $black; font-size: 1.75rem; font-weight: bold; text-align: center;
+                margin-bottom: 20px;}
+            }//p
+            
+            .forum_box_01 {width: 960px; height: 38px;
+                    background-color: $main; margin-bottom: 40px;
+                a {width: 335px; height: 19px; color:$black; font-size: 1rem; font-weight: bold; 
+                    display: inline-block; float: left; padding: 10px 45px 9px 100px;
+                    &:nth-of-type(1){text-align: right;}
+                    &:nth-of-type(2){padding: 10px 100px 9px 45px; }
+                    &:hover{color:$white; background-color: $black;  text-decoration: none; }
+                }// a
+            } // .foBox_01
+            .forum_box_02 {width: 960px; height: 384px;
+                ul {width: 100%; height: 100%; float: left;
+                    >li{float: left;   
+                        >img{width: 372px; height: 374px; background-color: #faa; float:left;
+                            margin-right: 60px;
+                            box-shadow: 10px 10px $sub2;}    
+                        >h3 {width: 500px; height: auto; font-size: 2rem; font-weight: bold; float: left; 
+                        margin-bottom: 72px; padding-top: 28px; }
+                        >p {width: 500px; height: auto; font-size: 1rem;  
+                        font-weight: normal; float: left; text-align: left;
+                        margin-bottom: 70px;}
+                        >button {width: 216px; height: 67px; float: left; color: $black; 
+                                font-size: 1rem; font-weight: bold;
+                                margin-right: 38px; cursor: pointer;
+                                background-color: $main; }
+                    }// li
+                }// ul
+            }// .foBox_02
+    }// #naForum
+}// #forumBox
+/* _____________________________ //naForum _________________________________  */
+            
+       
+        #naFun {width: 100%; height: auto; padding-top: 52px; padding-bottom: 36px; 
+            background-color: $white; box-sizing: border-box;
+            h2 {@include h2_style; margin-bottom: 39px; }
+            .f_title{width: 100%; height: 46px; padding-top:12px; margin-bottom: 20px; 
+                background-color: $main; 
+                font-size: 1.75rem; font-weight: bold; text-align: center; }
+            p {font-size: 0.875rem; font-weight: normal; text-align: center; 
+                margin-bottom: 38px; }
+        #funBox{width: 960px;  height: auto;   margin: 0 auto;
+            #coverImg {width: 776px; height: 376px; padding:36px 92px 18px;
+                ul { float: left;
+                    >li{width: 230px; height: 335px; margin-right: 42px; float: left;
+                          text-align: center; font-size: 0.75rem;
+                        >a{width: 230px; height: 335px;  display: block;
+                            &:active{
+                            background-image: url("../img/article/fun/select_cover/check_box.png");
+                            background-repeat: no-repeat; }
+                      }// a
+                        >span{width: 0; height: 0; display: block; overflow: hidden;}
+                    }// li
+                    >.cover_01 {background-image:url("../img/article/fun/cover/fun_cover01.jpg");
+                        background-repeat: no-repeat;
+                        background-size:230px; }
+                    >.cover_02 {background-image:url("../img/article/fun/cover/fun_cover02.jpg");
+                        background-repeat: no-repeat;
+                        background-size:230px;}
+                    >.cover_03 {margin-right: 0; 
+                        background-image:url("../img/article/fun/cover/fun_cover03.jpg");
+                        background-repeat: no-repeat;
+                        background-size:230px;}
+                }// ul
+            }// #coverImg
+            #coverPercent {width: 776px; height: 37px; margin-top: 18px; padding: 0 92px;
+                ul { float: left; 
+                    >li {width: 230px; height: 37px; margin-right: 42px; float:left; box-sizing: border-box; padding-top: 12px;
+                        color:$black; font-family: "myriad pro"; font-size: 0.75rem;  text-align: center; font-weight: bold;
+                        &:first-child{background-image: url("../img/article/fun/select_cover/cover_01/per_bar01.png");
+                            background-repeat: no-repeat;
+                            background-position: left center;}
+                        &:nth-child(2){background-image: url("../img/article/fun/select_cover/cover_02/per_bar02.png");
+                            background-repeat: no-repeat;
+                            background-position: left center;}
+                        &:nth-child(3){margin-right: 0;
+                        background-image: url("../img/article/fun/select_cover/cover_03/per_bar03.png");
+                        background-repeat: no-repeat;
+                        background-position: left center; }
+                    }// li
+            }// ul
+        }// #coverPercent
+    }// #funBox
+}// #naFun 
+            
+/* ______________________________________ //naFun ______________________________________ */            
+            
+        
+        #preissuBox{width: 100%; height: 840px; background-color: $white; box-sizing: border-box; padding-top: 52px;}
+            #naPreissu { width: 960px; height: 100%; 
+                h2 {@include h2_style; margin-bottom: 89px; }
+                input[type="search"]{width: 513px; height: 50px; float: left;
+                    margin-left: 186px;}
+                button{width: 73px; height: 50px; background-color: $main; 
+                    cursor: pointer; float: left;
+                    color:$black; font-weight: normal;
+            }// button
+            
+            .cover_list {width: 912px; height: 308px; 
+                padding-left:24px; padding-right:24px; 
+                    >li {width: 191px; height: 100%; color:$black; font-size:0.875rem; font-weight: bold; 
+                        text-align:center; float:left; 
+                        margin-top: 95px; margin-right: 48px; margin-bottom: 91px;
+                        &:nth-child(4){margin-right: 0;}
+                        >dl{width: 100%; height: 100%;
+                            >dt{width: 100%; height: 16px; margin-top: 14px;}
+                            >dd{width: 100%; height: 276px; background-color: $main;
+                                >a{width: 191px; height: 276px;}
+                                >img{width: 100%; height: 100%;}
+                            }// dd
+                        }//dl
+                }//li
+            }// .cover_list
+            .more_btn{width: 260px; height: 50px; float: left; margin-left:calc(50% - 130px);}
+        }// .napreissu
+/* ______________________________________ // .napreissu _______________________________________ */            
+            
+        #naSubcribe { height: 540px; background-color: $main; padding-top: 90px; 
+                    position: relative;
+            h2 {width: calc(100% - 50%); height: 132px; background-color: $white; 
+                padding: 16px 25% 16px 25%;
+                margin-bottom: 40px;
+               background-image: url("../img/logo/subcrLogo.png");
+               background-repeat: no-repeat; 
+               background-position: center center;}
+            p {color:$black; font-size:1.25rem; font-weight:bold; text-align: center;
+            }// p
+            button {width: 484px; height: 133px;
+                color:$black; font-size:2.25rem; font-weight: bold; text-align: center;
+                margin-top: 38px;
+                border:8px solid $black; box-sizing: border-box; 
+                background-color:rgba($white, 0.2); cursor:pointer;
+                position: absolute;
+                left:calc(50% - 242px);
+                &:hover{width: 484px; height: 133px;
+                    background-color: $black;
+                    color:$white; font-size:2.25rem; font-weight: bold; text-align: center; }
+            }// button
+            }// .na_subcribe
+        } // .article

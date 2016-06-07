@@ -1,0 +1,34 @@
+// background.scss
+
+   /* background banner image area */ 
+     .bg_banner_01 { width: 100%; height: 100vh;
+         position: relative;
+                background-image: url("../img/banner/background/main_banner01.jpg");
+                background-repeat: repeat;
+                background-position: center center; 
+            .main_banner01{width: auto; height: auto; position:absolute; top:20px; left: -800px; }
+            .main_banner02{width: auto; height: auto; position:absolute; bottom: 20px; right: -700px; }
+            }// .bg_banner_01
+     .bg_banner_02 { width: 100%; height: 100vh;
+         background-image: url("../img/banner/background/bgImg_02.png");
+                        background-repeat: repeat;
+                        background-position: center center;
+                        background-attachment: fixed; }
+    
+      .bg_banner_03 { width: 100%; height: 100vh;
+                        background-image: url("../img/banner/background/bgImg_03.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-attachment: fixed;}
+    
+         .bg_banner_04 { width: 100%; height: 100vh;
+                        background-image: url("../img/banner/background/bgImg_04.jpg");
+                        background-repeat: repeat;
+                        background-position: center center;
+                        background-attachment: fixed;}
+    
+        .bg_banner_05 { width: 100%; height: 100vh;
+                        background-image: url("../img/banner/background/bgImg_05.jpg");
+                        background-repeat: repeat;
+                        background-position: center center;
+                        background-attachment: fixed;}

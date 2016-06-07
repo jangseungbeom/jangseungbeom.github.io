@@ -1,0 +1,16 @@
+// rwd_index
+
+@charset "UTF-8";
+
+@media screen and (max-width: 640px){
+    @import "mos_640";
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+     @import "tbl_768";
+}
+
+@media screen and (min-width: 1024px){
+    @import "pc_1600";
+    
+}

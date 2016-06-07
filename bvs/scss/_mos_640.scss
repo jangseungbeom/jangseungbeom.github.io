@@ -1,0 +1,136 @@
+// mo 640
+
+/* 헤더 */
+#headBox{width: 100%; height: 12.5vw; /*80px; */ background-color: #101010;
+                    box-sizing: border-box; padding: 3.125vw; position: fixed; z-index: 21;
+    /* logo */
+    >h1{position: fixed; top: 3.125vw ;/*20px;*/ left: 3.125vw; z-index: 22;
+        >a{width: 12.5vw; height:6.25vw; /*40px;*/ display: block; text-decoration: none; 
+            >img{width: 12.5vw; /*80px;*/ height: auto;}
+        } // a
+    } // h1
+    >button{width:6.25vw; height: 6.25vw; float: right; background-color: transparent;
+        &.op_btn{position: absolute; top: 2.125vw; right: 3.125vw; z-index: 22;
+            transition: all 1.2s;}
+       /* &.cls_btn{position: absolute; top: 2.125vw; right: 3.125vw; z-index: 8;}*/
+        &.op_rt{right: 50vw; transition: all 1.2s;}
+        >a{width: 100%; height: 100%; display: block; text-decoration: none; 
+            >i{font-size:6.25vw; color:#fff; 
+                &:active{color:#d80106;}
+            } // i
+        }// a
+    } // button
+ 
+    >#moMenu{width: 50vw; /* 320px */  height: 93.75vw; /* 600px */ box-sizing: border-box;
+        padding: 9.375vw /* 60px */ 3.125vw; /* 20px */ background-color: rgba(#101010, 0.8);
+        position:absolute; top: 0; right: -50vw; z-index: 21; transition: all 1.2s;
+        &.rt{right: 0; transition: all 1.2s;}
+        >.m_sns{ width: 100%; height: 7.8125vw; /* 50px */ margin-bottom: 4px;
+            >li{width: 14.375vw; /* 92px */ float: left;
+                >a{display: block; text-decoration: none; width: 100%; height: 100%; float:left;
+                    color: #fff; font-size: 2.5vw; /* 16px */ font-weight: normal; text-align: center;
+                    box-sizing: border-box; padding-top: 2.8125vw; 
+                    >i{font-size: 3.75vw; /* 16px */ color: #fff; 
+                        &:active{color:#d80106;}
+                    }
+                }
+            }
+        }
+        >.m_menu{ width: 100%; height: auto;
+            >li{width: 100%; height: 7.8125vw; /* 50px */ float: left; margin-bottom: 4px;
+                >a{display: block; text-decoration: none; width: 100%; height: 100%; float:left;
+                    color: #fff; font-size: 2.5vw; /* 16px */ font-weight: normal; text-align: center;
+                    box-sizing: border-box; padding-top: 2.8125vw; 
+                  &:active{color:#d80106;}
+                } // a
+            } // li
+        >li.on>a{font-size: 2.5vw; font-weight: bold; color:#fff; background-color: rgba(#d80106, 0.7); opacity: 1;}
+        } // .m_menu  
+    } // #moMenu
+} //#headBox
+  /* pc용 메뉴 */    
+        #snsBox{ display: none;} // #snsBox
+        #aside{display: none;} // #aside
+
+/* 내용 */
+#content{
+    >section{width: 100%; height: 100%; position:relative; background-size: cover; background-position: center center; background-attachment: fixed; overflow: hidden;
+        &:nth-child(1){background-image: url("../img/bg/smallbvs.jpg");}
+        &:nth-child(2){background-image: url("../img/bg/mbg1.png");}
+        &:nth-child(3){background-image: url("../img/bg/mbg1.png");}
+        &:nth-child(4){background-image: url("../img/bg/mbg2.png");}
+        &:nth-child(5){background-image: url("../img/bg/mbg2.png");}
+        &:nth-child(6){background-image: url("../img/bg/mbg1.png");}
+        
+      
+        >.m_title{width: 80%; height: 28.125vw; /*180px; */
+            >img{ width: 80%; position: absolute; z-index: 20; bottom: 0; left: 0; margin-bottom: 15%;
+                margin-left: 10%;}
+        }
+        
+        >div{position: absolute; top: 40%; left: 1.5625vw; /*10px*/ z-index: 11;  background-color: rgba(#101010, 0.6); box-sizing: border-box; padding: 1.5625vw; /* 10px; */
+            >h2{width: 100%; height:auto; font-size: 5vw; /* 2rem; 32px */ font-weight: bold; letter-spacing: 2px; line-height: 1; }
+            >p{font-size: 2.5vw; /* 1rem; 16px */ font-weight: bold;  margin-bottom: 3.125vw; /*20px;*/ border-bottom: 1px solid #d80106;}
+            >span{font-size: 1.875vw;}
+            &:nth-child(1) h2{color: #fff; opacity: 0.7; text-shadow: 1px 1px 1px #101010; }
+            &:nth-child(1) p{color: #fff; opacity: 0.7; text-shadow: 1px 1px 1px #101010;}
+            &:nth-child(1) span{color: #eee;}
+        }
+        >.e01{width: 100%; position: absolute; bottom: 0px; right: 20px;}    
+        >.e02{width: 100%; position: absolute; bottom: -20px; right: 10px;}    
+        >.e03{width: 100%; position: absolute; top: 80px; right: 10px;}
+        >.symbol{position: absolute; width: 23.4375vw; /*150px;*/ top: 36%; /*280px;*/ right: 10%; /*60px;*/ opacity: 0.5; z-index: 12;}
+        >.symbol2{position: absolute; width: 39.0625vw; /*250px;*/ top: 48%;/*400px;*/ right: 4%;/*20px;*/ opacity: 0.5; z-index: 12;}
+        >.symbol3{position: absolute; width:39.0625vw;  /*250px;*/ top: 40%; /*320px;*/ right: 0; opacity: 0.5; z-index: 12;}
+        >.symbol4{position: absolute; width:39.0625vw;  /*250px;*/ top: 42%; /*360px;*/ right: 2%;/*10px;*/ opacity: 0.5; z-index: 12;}
+        >.symbol5{position: absolute; width: 39.0625vw; /*250px;*/ top: 46%; /*380px;*/ right:2%; /*10px;*/ opacity: 0.5; z-index: 12;}
+        >.m_chr1{ width: 48.5vw; /*320px;*/ min-width: 260px; max-width: 270px ;position: absolute; bottom:0; right: 0;}
+        >.m_chr2{ width: 69.875vw; /*446px; */min-width: 360px; max-width: 406px; position: absolute; bottom:0; right: -10%; /*-60px;*/}
+        >.m_chr3{ width: 48vw; /*268px;*/min-width: 228px; max-width: 238px; position: absolute; bottom:0; right: 0;}
+        >.m_chr4{ width: 59.6875vw; /*382px;*/min-width:322px; max-width: 342px; position: absolute; bottom:0; right: 0;}
+        >.m_chr5{ width: 39.844vw; /*255px; */min-width: 205px; max-width: 215px; position: absolute; bottom:0; right: 10px;}
+        
+    /* 프리오더 버튼 */    
+        >p{width: 100%; height: auto; color: #fff; text-align: center; font-size: 1.5rem; font-weight: bold;  opacity: 0.8; position: absolute; z-index: 20; bottom: 0; margin-bottom: 32%;}
+        >.ord_btn{width: 100%; height: auto; display: block; text-decoration: none; /*width: 245px; height: 45px; */ position: absolute; bottom:0; left: 0; z-index: 20; /*margin-left: 30%;*/ margin-bottom: 18%;
+            color: #fff; font-size: 2rem; font-weight: bold; text-align: center; box-sizing: border-box; padding: 8px; opacity: 0.8;
+            background-image: url("../img/tickets-bg.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        /* 비디오 루프 */
+        >.vid{width: 100%; height: 100%; position: absolute; top: 0; left: 0; display:none;
+            &.vid2{width: 100%; height: 100%; position: absolute; top: 0; left: 0; display:none; }
+            >video{width: 100%; min-width: 1600px; display:none;}
+        }
+        >#gBox{width: 90%; height: auto; position: absolute; top: 15%; left:5%;  z-index: 1;}
+       /* &.gall_box>h2{width: 100%; height: auto; color: #fff; font-size: 2rem; font-weight: bold; opacity: 0.8; text-align: left; box-sizing: border-box; padding-left: 300px; margin-top: 160px;}*/
+        >.gallery{width: 90%; height: 34vw; /*220px; */background-color: rgba(#101010, 0.5); overflow: hidden; border: 1px solid #d80106;
+             position: absolute; bottom: 8%; left: 5%; z-index: 1;
+            >li{width: 14vw; /* 94px; */ height: auto; margin: 1.5625vw; /*10px;*/ float: left; overflow: hidden;
+                >a{width: 100%; height: 100%; float: left; display: block; 
+                    >img{width: 100%; height: auto; opacity: 0.7; transition: all 0.5s linear;
+                        &:hover{transform: scale(1.5); opacity: 1;}
+                    } // img
+                } // a
+            } // li
+        } // .gallery
+    &.gall_box{  background-image: url("../img/bg/bg3.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;}    
+    &#vdBox{background-image: url("../img/bg/batman_v_superman_2016-wide.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        >.vid2{display: none;}
+        }    
+        
+    } // section
+        
+}
+/*  푸터 */
+#footBox{width: 100%; height: 12vw; /*40px;*/ box-sizing: border-box; padding: 3.125vw 1.5625vw;/*20px*/ /*10px*/ background-color: #1e1e1e; 
+    >h2{width: 9.375vw; /*60px;*/ height: 28px;  float: left;
+        >img{width: 9.375vw; /*60px;*/}}
+    >p{width: 60vw ; /*400px;*/ height: auto; font-size: 1.25vw; /* 8px */ font-weight: normal; text-align: right; color: #e3e3e3; float: right; }
+}
+    

@@ -1,0 +1,40 @@
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=13c24d8b-d740-4a4d-9066-683c8b6ce803" seamless="seamless" scrolling="no">
+	이 브라우저는 iframe을 지원하지 않습니다.
+</iframe>
+
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000151-161f-dd38-ab59-ff1ff2470001" seamless="seamless" scrolling="no">
+	이 브라우저는 iframe을 지원하지 않습니다.
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000151-161f-dd38-ab59-ff1ff2470001" seamless="seamless" scrolling="no">
+	이 브라우저는 iframe을 지원하지 않습니다.
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000151-161f-dd38-ab59-ff1ff2470001" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000151-161f-dd38-ab59-ff1ff2470001" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000151-161f-dd38-ab59-ff1ff2470001" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000153-0fd1-d70a-a5fb-2ff7bf9d0000" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000153-0fd1-d70a-a5fb-2ff7bf9d0000" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=ngc-VW95SlHSnYlmLtdhuyr_Ask16n0a8Ij6" seamless="seamless" scrolling="no">
+
+</iframe>
+
+<iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=ngc-VW95SlHSnYlmLtdhuyr_Ask16n0a8Ij6" seamless="seamless" scrolling="no">
+
+</iframe>

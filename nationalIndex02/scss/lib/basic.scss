@@ -1,0 +1,13 @@
+// basic.scss
+
+$main :#FFDC00;
+$black :#221814;
+$white:#FFFFFF;
+$sub1 :#aaaaaa;
+$sub2 :#e5e5e5;
+
+@mixin h2_style{
+    width: 100%; height: auto; color: $black;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4.25rem; font-weight:bold; text-align: center; 
+}

@@ -1,0 +1,24 @@
+html, body { height: 100%; }
+
+#newsBox { width: 960px; height: 250px; margin: 10px auto; }
+#newsBox > .news { width: 102%; height: 100%; /*overflow: hidden;*/ }
+#newsBox > .news > li { width: 19.5%; height: 100%; float: left; text-align: center; font-size: 1.5em; }
+#newsBox > .news > li > h3 { width: 100%; height: 30px; color: #FFFFFF; margin-bottom: 10px; opacity: 0; font-size: 1rem; font-weight: bold; text-align: center; }
+#newsBox > .news > li > p { color: #FFFFFF; font-size: 0.75rem; font-weight: normal; text-align: center; opacity: 0; margin-bottom: 10px; padding: 0 4px; }
+#newsBox > .news > li > p:nth-of-type(2) { font-size: 0.875rem; }
+#newsBox > .news > li:nth-child(1) { box-sizing: border-box; padding: 30px 10px 20px; background-image: url("../img/article/news/news_01.png"); background-position: center center; background-repeat: no-repeat; }
+#newsBox > .news > li:nth-child(2) { box-sizing: border-box; padding: 30px 10px 20px; background-image: url("../img/article/news/news_02.png"); background-position: center center; background-repeat: no-repeat; }
+#newsBox > .news > li:nth-child(3) { box-sizing: border-box; padding: 30px 10px 20px; background-image: url("../img/article/news/news_03.png"); background-position: center center; background-repeat: no-repeat; }
+#newsBox > .news > li:nth-child(4) { box-sizing: border-box; padding: 30px 10px 20px; background-image: url("../img/article/news/news_04.png"); background-position: center center; background-repeat: no-repeat; }
+#newsBox > .news > li:nth-child(5) { box-sizing: border-box; padding: 30px 10px 20px; background-image: url("../img/article/news/news_05.png"); background-position: center center; background-repeat: no-repeat; }
+#newsBox > .news > li > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+.new_list { width: 100%; height: 80px; margin: 10px auto; }
+.new_list h3 { width: 100%; height: 30px; overflow: visible; }
+.new_list > ul { width: 100%; height: 100%; }
+.new_list > ul > li { width: 20%; height: 100%; font-size: 0.875rem; display: inline-block; border: 1px solid #f2d100; box-sizing: border-box; padding: 10px 20px 20px; background-color: #FFDC00; float: left; }
+.new_list > ul > li:hover { color: #221814; background-color: #d1b400; box-sizing: border-box; border: 1px solid #f2d100; }
+.new_list > ul > li:hover > .news > h3 { opacity: 1; }
+.new_list > ul > li > a { width: 100%; height: 100%; display: block; color: #221814; text-align: center; font-weight: bold; text-align: center; line-height: 50px; text-decoration: none; }
+
+/*# sourceMappingURL=newBox.css.map */

@@ -1,0 +1,70 @@
+// container.scss
+
+@charset "UTF-8";
+@import "./lib/basic.scss";
+@import"./header.scss";
+@import"./banner.scss";
+@import"./article_test.scss";
+@import"./footer.scss";
+@import"./background.scss";
+@import"./login_2.scss";
+
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700,100);
+
+html, body{height: 100%; margin: 0 auto; }
+
+#container { width: 100%; height: auto; }
+    .na_box{margin: 0 auto;}
+
+
+/* side bar */
+
+#naSideNavi{width: 240px; height: auto; position: fixed; top: 340px; right: 50%; z-index: 500; display: none;
+    /*background-color: rgba($white, 0.9);*/
+    >ul{width: 100%; height: 100%; 
+        >.na_sbar{width: 68%; height: 100%; color: $black; float: left; margin-left: 30px;
+            margin-bottom: 20px;
+              
+            >a{width: 100%; height: 100%; }
+            .text{width: 0; height: 100%; display: block; text-align: right; opacity: 0;
+                color:$white; font-size:1rem; font-weight: bold; padding-top: 2px;
+                overflow: hidden; transition:all 1s; float: right; }
+            .icon{width: 16px; height: 16px; margin: 2px; 
+                border-radius: 100%; opacity: 0.8;
+                /*border: 1px solid $white;*/
+                background-color: #e3e3e3; transition:all 0.5s; float: left; 
+                box-shadow: 1px 1px 1px $black;}
+            a:hover>.text{width:50px; float: right; margin-left: 10px; text-align: right; opacity: 1;
+                color:$white; font-size:1rem; font-weight: bold; /*padding-top: 1px;*/ text-shadow: 1px 1px 1px $black; }
+            a:hover>.icon{/*transform:scale(1.5);*/ background-color: $main; }
+        
+           /* >a{width: 20px; height: 20px; display: block;opacity: 0; background-color: #aff;
+                text-indent: -9999em; border-radius:50%;
+                margin:2px;
+                  
+                >span.icon{
+                    
+                width: 15px; height: 15px; border-radius: 50%;  margin-bottom: 20px; 
+                display: block;
+                    overflow: visible;
+                transition: all 0.8s ease; 
+                &:hover{ width: 10px; height: 10px; 
+                padding: 5px 5px;
+                border: 0; 
+                    
+                border: 2px solid $white;
+                background-color: $main;
+                background-origin: padding-box;
+                transform: scale(1.2);   }
+                    }
+                }*/   
+            } // .na_sbar
+        } // ul
+    } //#naSideNavi
+
+
+#topButton{width: 50px; height: 50px; background-color: rgba(#101010, 0.7); border: 1px solid $white; position: fixed; bottom: 0; right: 0;
+    color: $white; font-size: 1rem; text-align: center; 
+margin-bottom: 50px; margin-right: 50px;
+    &:hover{color: $main; font-weight: bold;}
+}
