@@ -1,5 +1,80 @@
 @charset "UTF-8";
-@media screen and (max-width: 640px) { /* 헤더 */
+@media screen and (max-width: 480px) { /* 헤더 */
+  #headBox { width: 100%; height: 12.5vw; /*80px; */ background-color: #101010; box-sizing: border-box; padding: 3.125vw; position: fixed; z-index: 21; /* logo */ }
+  #headBox > h1 { position: fixed; top: 3.125vw; /*20px;*/ left: 3.125vw; z-index: 22; }
+  #headBox > h1 > a { width: 12.5vw; height: 6.25vw; /*40px;*/ display: block; text-decoration: none; }
+  #headBox > h1 > a > img { width: 12.5vw; /*80px;*/ height: auto; }
+  #headBox > button { width: 6.25vw; height: 6.25vw; float: right; background-color: transparent; /* &.cls_btn{position: absolute; top: 2.125vw; right: 3.125vw; z-index: 8;}*/ }
+  #headBox > button.op_btn { position: absolute; top: 2.125vw; right: 3.125vw; z-index: 22; transition: all 1.2s; }
+  #headBox > button.op_rt { right: 50vw; transition: all 1.2s; }
+  #headBox > button > a { width: 100%; height: 100%; display: block; text-decoration: none; }
+  #headBox > button > a > i { font-size: 6.25vw; color: #fff; }
+  #headBox > button > a > i:active { color: #d80106; }
+  #headBox > #moMenu { width: 50vw; /* 320px */ height: 93.75vw; /* 600px */ box-sizing: border-box; padding: 9.375vw 3.125vw; /* 20px */ background-color: rgba(16, 16, 16, 0.8); position: absolute; top: 0; right: -50vw; z-index: 21; transition: all 1.2s; }
+  #headBox > #moMenu.rt { right: 0; transition: all 1.2s; }
+  #headBox > #moMenu > .m_sns { width: 100%; height: 7.8125vw; /* 50px */ margin-bottom: 4px; }
+  #headBox > #moMenu > .m_sns > li { width: 14.375vw; /* 92px */ float: left; }
+  #headBox > #moMenu > .m_sns > li > a { display: block; text-decoration: none; width: 100%; height: 100%; float: left; color: #fff; font-size: 2.5vw; /* 16px */ font-weight: normal; text-align: center; box-sizing: border-box; padding-top: 2.8125vw; }
+  #headBox > #moMenu > .m_sns > li > a > i { font-size: 3.75vw; /* 16px */ color: #fff; }
+  #headBox > #moMenu > .m_sns > li > a > i:active { color: #d80106; }
+  #headBox > #moMenu > .m_menu { width: 100%; height: auto; }
+  #headBox > #moMenu > .m_menu > li { width: 100%; height: 7.8125vw; /* 50px */ float: left; margin-bottom: 4px; }
+  #headBox > #moMenu > .m_menu > li > a { display: block; text-decoration: none; width: 100%; height: 100%; float: left; color: #fff; font-size: 2.5vw; /* 16px */ font-weight: normal; text-align: center; box-sizing: border-box; padding-top: 2.8125vw; }
+  #headBox > #moMenu > .m_menu > li > a:active { color: #d80106; }
+  #headBox > #moMenu > .m_menu > li.on > a { font-size: 2.5vw; font-weight: bold; color: #fff; background-color: rgba(216, 1, 6, 0.7); opacity: 1; }
+  /* pc용 메뉴 */
+  #snsBox { display: none; }
+  #aside { display: none; }
+  /* 내용 */
+  #content > section { width: 100%; height: 100%; position: relative; background-size: cover; background-position: center center; background-attachment: fixed; overflow: hidden; /* 프리오더 버튼 */ /* 비디오 루프 */ /* &.gall_box>h2{width: 100%; height: auto; color: #fff; font-size: 2rem; font-weight: bold; opacity: 0.8; text-align: left; box-sizing: border-box; padding-left: 300px; margin-top: 160px;}*/ }
+  #content > section:nth-child(1) { background-image: url("../img/bg/smallbvs.jpg"); }
+  #content > section:nth-child(2) { background-image: url("../img/bg/mbg1.png"); }
+  #content > section:nth-child(3) { background-image: url("../img/bg/mbg1.png"); }
+  #content > section:nth-child(4) { background-image: url("../img/bg/mbg2.png"); }
+  #content > section:nth-child(5) { background-image: url("../img/bg/mbg2.png"); }
+  #content > section:nth-child(6) { background-image: url("../img/bg/mbg1.png"); }
+  #content > section > .m_title { width: 80%; height: 28.125vw; /*180px; */ }
+  #content > section > .m_title > img { width: 80%; position: absolute; z-index: 20; bottom: 0; left: 0; margin-bottom: 15%; margin-left: 10%; }
+  #content > section > div { position: absolute; top: 40%; left: 1.5625vw; /*10px*/ z-index: 11; background-color: rgba(16, 16, 16, 0.6); box-sizing: border-box; padding: 1.5625vw; /* 10px; */ }
+  #content > section > div > h2 { width: 100%; height: auto; font-size: 5vw; /* 2rem; 32px */ font-weight: bold; letter-spacing: 2px; line-height: 1; }
+  #content > section > div > p { font-size: 2.5vw; /* 1rem; 16px */ font-weight: bold; margin-bottom: 3.125vw; /*20px;*/ border-bottom: 1px solid #d80106; }
+  #content > section > div > span { font-size: 1.5vw; }
+  #content > section > div:nth-child(1) h2 { color: #fff; opacity: 0.7; text-shadow: 1px 1px 1px #101010; }
+  #content > section > div:nth-child(1) p { color: #fff; opacity: 0.7; text-shadow: 1px 1px 1px #101010; }
+  #content > section > div:nth-child(1) span { color: #eee; }
+  #content > section > .e01 { width: 100%; position: absolute; bottom: 0px; right: 20px; }
+  #content > section > .e02 { width: 100%; position: absolute; bottom: -20px; right: 10px; }
+  #content > section > .e03 { width: 100%; position: absolute; top: 80px; right: 10px; }
+  #content > section > .symbol { position: absolute; width: 20vw; /*150px;*/ top: 42%; /*280px;*/ right: 10%; /*60px;*/ opacity: 0.5; z-index: 12; }
+  #content > section > .symbol2 { position: absolute; width: 39.0625vw; /*250px;*/ top: 48%; /*400px;*/ right: 4%; /*20px;*/ opacity: 0.5; z-index: 12; }
+  #content > section > .symbol3 { position: absolute; width: 39.0625vw; /*250px;*/ top: 42%; /*320px;*/ right: 0; opacity: 0.5; z-index: 12; }
+  #content > section > .symbol4 { position: absolute; width: 39.0625vw; /*250px;*/ top: 48%; /*360px;*/ right: 2%; /*10px;*/ opacity: 0.5; z-index: 12; }
+  #content > section > .symbol5 { position: absolute; width: 39.0625vw; /*250px;*/ top: 46%; /*380px;*/ right: 2%; /*10px;*/ opacity: 0.5; z-index: 12; }
+  #content > section > .m_chr1 { width: 46vw; /*320px;*/ min-width: 220px; max-width: 270px; position: absolute; bottom: 0; right: 0; }
+  #content > section > .m_chr2 { width: 62vw; /*446px; */ min-width: 360px; max-width: 380px; position: absolute; bottom: 0; right: -10%; /*-60px;*/ }
+  #content > section > .m_chr3 { width: 42vw; /*268px;*/ min-width: 188px; max-width: 208px; position: absolute; bottom: 0; right: 0; }
+  #content > section > .m_chr4 { width: 56vw; /*382px;*/ min-width: 282px; max-width: 302px; position: absolute; bottom: 0; right: 0; }
+  #content > section > .m_chr5 { width: 34vw; /*255px; */ min-width: 185px; max-width: 195px; position: absolute; bottom: 0; right: 10px; }
+  #content > section > p { width: 100%; height: auto; color: #fff; text-align: center; font-size: 1.5rem; font-weight: bold; opacity: 0.8; position: absolute; z-index: 20; bottom: 0; margin-bottom: 32%; }
+  #content > section > .ord_btn { width: 100%; height: auto; display: block; text-decoration: none; /*width: 245px; height: 45px; */ position: absolute; bottom: 0; left: 0; z-index: 20; /*margin-left: 30%;*/ margin-bottom: 18%; color: #fff; font-size: 2rem; font-weight: bold; text-align: center; box-sizing: border-box; padding: 8px; opacity: 0.8; background-image: url("../img/tickets-bg.png"); background-position: center center; background-repeat: no-repeat; }
+  #content > section > .vid { width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: none; }
+  #content > section > .vid.vid2 { width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: none; }
+  #content > section > .vid > video { width: 100%; min-width: 1600px; display: none; }
+  #content > section > #gBox { width: 90%; height: auto; position: absolute; top: 15%; left: 5%; z-index: 1; }
+  #content > section > .gallery { width: 90%; height: 34vw; /*220px; */ background-color: rgba(16, 16, 16, 0.5); overflow: hidden; border: 1px solid #d80106; position: absolute; bottom: 8%; left: 5%; z-index: 1; }
+  #content > section > .gallery > li { width: 14vw; /* 94px; */ height: auto; margin: 1.5625vw; /*10px;*/ float: left; overflow: hidden; }
+  #content > section > .gallery > li > a { width: 100%; height: 100%; float: left; display: block; }
+  #content > section > .gallery > li > a > img { width: 100%; height: auto; opacity: 0.7; transition: all 0.5s linear; }
+  #content > section > .gallery > li > a > img:hover { transform: scale(1.5); opacity: 1; }
+  #content > section.gall_box { background-image: url("../img/bg/bg3.jpg"); background-position: center center; background-repeat: no-repeat; }
+  #content > section#vdBox { background-image: url("../img/bg/batman_v_superman_2016-wide.jpg"); background-position: center center; background-repeat: no-repeat; }
+  #content > section#vdBox > .vid2 { display: none; }
+  /*  푸터 */
+  #footBox { width: 100%; height: 18vw; /*40px;*/ box-sizing: border-box; padding: 3.125vw 1.5625vw; /*20px*/ /*10px*/ background-color: #1e1e1e; }
+  #footBox > h2 { width: 9.375vw; /*60px;*/ height: 28px; float: left; }
+  #footBox > h2 > img { width: 9.375vw; /*60px;*/ }
+  #footBox > p { width: 60vw; /*400px;*/ height: auto; font-size: 1.25vw; /* 8px */ font-weight: normal; text-align: right; color: #e3e3e3; float: right; } }
+@media screen and (min-width: 481px) and (max-width: 640px) { /* 헤더 */
   #headBox { width: 100%; height: 12.5vw; /*80px; */ background-color: #101010; box-sizing: border-box; padding: 3.125vw; position: fixed; z-index: 21; /* logo */ }
   #headBox > h1 { position: fixed; top: 3.125vw; /*20px;*/ left: 3.125vw; z-index: 22; }
   #headBox > h1 > a { width: 12.5vw; height: 6.25vw; /*40px;*/ display: block; text-decoration: none; }

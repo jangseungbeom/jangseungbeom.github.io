@@ -2,7 +2,11 @@
 
 @charset "UTF-8";
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 480px) {
+    @import "mos_480";
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px){
     @import "mos_640";
 }
 

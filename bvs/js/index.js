@@ -120,7 +120,8 @@ $(document).ready(function(){
     });*/
    
     /* 메뉴 슬라이드 */
-        $(".op_btn").on("click", function(){
+        $(".op_btn").on("click", function(e){
+            e.preventDefault();
             $(".op_btn").toggleClass("op_rt");
             $("#moMenu").toggleClass("rt");
         });
