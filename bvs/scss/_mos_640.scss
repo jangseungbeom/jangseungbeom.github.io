@@ -133,4 +133,9 @@
         >img{width: 9.375vw; /*60px;*/}}
     >p{width: 60vw ; /*400px;*/ height: auto; font-size: 1.25vw; /* 8px */ font-weight: normal; text-align: right; color: #e3e3e3; float: right; }
 }
+
+#topButton{width: 35px; height: 35px; background-color: rgba(#d80106, 0.5); border: 1px solid #101010; position: fixed; bottom: 0; right: 0; z-index: 22;
+    color: #fff; font-size: 0.8rem; text-align: center; 
+margin-bottom: 80px; margin-right: 10px;
+}
     
