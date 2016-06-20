@@ -180,7 +180,7 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #mainMenu > ul > li { width: calc(960px / 3); /* 248px */ height: 54px; /* 54px */ margin-bottom: 30px; /* 29px */ float: left; }
   #content > #mainMenu > ul > li:first-child { display: none; }
   #content > #mainMenu > ul > li > a { width: 320px; /* 248px */ height: 54px; /* 54px */ display: block; text-decoration: none; color: #e3bb82; font-family: "Exo 2"; font-size: 22px; /* 16pt 22px */ font-weight: 500; box-sizing: border-box; padding-top: 14px; /* 14px */ text-align: center; }
-  #content > #mainMenu > ul > li > a:hover { color: #e2e2e2; border-left: 1px solid #e2e2e2; border-right: 1px solid #e2e2e2; }
+  #content > #mainMenu > ul > li > a:hover { color: #e2e2e2; background-color: rgba(27, 27, 3, 0.5); border-left: 1px solid #e2e2e2; border-right: 1px solid #e2e2e2; }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { width: 100%; height: 31.25vw; float: left; display: none; }
   #content > #menu > ul { width: 100%; height: 100%; text-align: center; }

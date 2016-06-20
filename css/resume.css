@@ -99,8 +99,7 @@ html, body { height: 100%; margin: 0 auto; }
 @media screen and (min-width: 769px) and (max-width: 1024px) { #container { width: 100%; height: 100%; margin: 0 auto; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 6vw 20px  2vw; background-color: #e3bb82; }
   #headBox > h1 { width: 20vw; /*100px*/ height: 10vw; /* 90px */ }
-  #headBox > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/name_logo.png"); background-position: center center; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; -webkit-transition: all 1.2s; transition: all 1.2s; }
-  #headBox > h1 > a:hover { -ms-transform: rotateY(360deg); -webkit-transform: rotateY(360deg); /* IE 9.0 */ -moz-transform: rotateY(360deg); /* firefox 3.5 */ -o-transform: rotateY(360deg); /* opera 10.5 */ transform: rotateY(360deg); }
+  #headBox > h1 > a { width: 100%; height: 100%; display: block; background-image: url("../img/name_logo.png"); background-position: center center; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; }
   #headBox > h2 { width: 100%; height: 5.208vw; /* 40px */ margin-top: 5.208vw; /* 40px */ color: #FFFFFF; font-size: 6vw; font-weight: bold; }
   #headBox .icon_box { z-index: 111; width: 8.3333vw; height: 8.3333vw; margin: 0 auto; top: 12.5vw; /* 60px */ right: 8.3333vw; /* 40px */ cursor: pointer; position: absolute; display: none; }
   #headBox .icon_box > .menu_icon { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; position: absolute; top: 0; right: 0; margin: 0 auto; width: 8.3333vw; /* 40px */ height: 2px; background-color: #e9ddcc; }
@@ -132,8 +131,7 @@ html, body { height: 100%; margin: 0 auto; }
 @media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 20px; background-color: #e3bb82; }
   #headBox > h1 { width: 200px; /*100px*/ height: 108px; /* 90px */ }
-  #headBox > h1 > a { width: 100%; height: 100%; display: block; margin-top: 20px; background-image: url("../img/name_logo.png"); background-position: top left; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; -webkit-transition: all 1.2s; transition: all 1.2s; }
-  #headBox > h1 > a:hover { -ms-transform: rotateY(360deg); -webkit-transform: rotateY(360deg); /* IE 9.0 */ -moz-transform: rotateY(360deg); /* firefox 3.5 */ -o-transform: rotateY(360deg); /* opera 10.5 */ transform: rotateY(360deg); }
+  #headBox > h1 > a { width: 100%; height: 100%; display: block; margin-top: 20px; background-image: url("../img/name_logo.png"); background-position: top left; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; }
   #headBox > h2 { width: 100%; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ color: #FFFFFF; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
   #headBox .icon_box { z-index: 111; width: 8.3333vw; height: 8.3333vw; margin: 0 auto; top: 12.5vw; /* 60px */ right: 8.3333vw; /* 40px */ cursor: pointer; position: absolute; display: none; }
   #headBox .icon_box > .menu_icon { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; position: absolute; top: 0; right: 0; margin: 0 auto; width: 8.3333vw; /* 40px */ height: 2px; background-color: #e9ddcc; }

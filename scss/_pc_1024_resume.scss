@@ -19,15 +19,6 @@
                 background-repeat: no-repeat;
                 background-size: 100%; 
                 text-indent: -9999px; 
-                 -webkit-transition: all 1.2s;
-                        transition: all 1.2s;
-                        &:hover{
-                            -ms-transform: rotateY(360deg);
-                           -webkit-transform: rotateY(360deg); /* IE 9.0 */
-                            -moz-transform: rotateY(360deg); /* firefox 3.5 */
-                            -o-transform: rotateY(360deg); /* opera 10.5 */
-                            transform: rotateY(360deg);
-                        }
              }
          }
          >h2{
