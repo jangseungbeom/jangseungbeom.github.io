@@ -84,8 +84,8 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #menu { width: 80%; height: 7.0313vw; /* 54px */ position: absolute; top: 14%; right: 0; border-bottom: 1px solid #e9ddcc; }
   #content > #menu > ul { width: 100%; height: 100%; box-sizing: border-box; padding: 1.5625vw 1.2vw 1.5625vw 9vw; /* 12px 20px 12px 80px */ }
   #content > #menu > ul > li { width: auto; height: 100%; float: left; margin-right: 3.8vw; /* 28px */ text-align: right; }
-  #content > #menu > ul > li:nth-child(9) { margin-right: 0; }
-  #content > #menu > ul > li > a { width: 100%; height: 100%; display: block; text-decoration: none; box-sizing: border-box; padding: 0.78125vw 0; /* 6px */ color: #FFFFFF; font-size: 2.083vw; /* 12px (1rem) */ font-weight: 700; }
+  #content > #menu > ul > li:nth-child(10) { margin-right: 0; }
+  #content > #menu > ul > li > a { width: 100%; height: 100%; display: block; text-decoration: none; box-sizing: border-box; padding: 0.78125vw 0; /* 6px */ color: #FFFFFF; font-size: 1.5vw; /* 12px (1rem) */ font-weight: 700; }
   #content > #menu > ul > li > a:active { color: #ac926d; }
   #content > #menu > ul > li:nth-child(even) { display: none; }
   #content > #menu > ul > li:last-child { background: none; }
