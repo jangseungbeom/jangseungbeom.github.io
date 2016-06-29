@@ -10,7 +10,7 @@ body{@include backOpt($size: cover);
     #web_head{width: 100%; height: 130px; background-color: $black;
               position: relative;
     }// #web_head
-    #banner{width: 100%; height: 500px; background-color: #fff}
+    #banner{width: 100%; height: 800px; background-color: #fff; overflow: hidden; }
     #contents_01{width: 100%; height: 900px; padding: 60px 30px; 
                  background-color: #fff;
         >.wrap{width: 900px; height: 900px; margin: 0 auto; }
