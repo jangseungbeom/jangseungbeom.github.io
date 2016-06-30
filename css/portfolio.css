@@ -13,9 +13,9 @@ html, body { height: 100%; margin: 0 auto; }
 
 @media screen and(min-width: 769px) and (max-width: 1024px) { @import "pc_1024_resume";
 }*/
-@media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; }
+@media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; overflow-x: hidden; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 20px; background-color: #e3bb82; }
-  #headBox > h1 { width: 200px; /*100px*/ height: 108px; /* 90px */ }
+  #headBox > h1 { width: 200px; /*100px*/ height: 50px; /* 90px */ }
   #headBox > h1 > a { width: 100%; height: 100%; display: block; margin-top: 20px; background-image: url("../img/name_logo.png"); background-position: top left; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; }
   #headBox .icon_box { z-index: 111; width: 8.3333vw; height: 8.3333vw; margin: 0 auto; top: 12.5vw; /* 60px */ right: 8.3333vw; /* 40px */ cursor: pointer; position: absolute; display: none; }
   #headBox .icon_box > .menu_icon { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; position: absolute; top: 0; right: 0; margin: 0 auto; width: 8.3333vw; /* 40px */ height: 2px; background-color: #e9ddcc; }
@@ -28,17 +28,17 @@ html, body { height: 100%; margin: 0 auto; }
   #headBox .icon_box.open .menu_icon { -webkit-transition: all 0.4s ease-out; transition: all 0.4s ease-out; background-color: transparent; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
   #headBox .icon_box.open .menu_icon:before { top: 0; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
   #headBox .icon_box.open .menu_icon:after { top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
-  #content { width: 100%; height: 100%; }
+  #content { width: 100%; height: auto; }
   #content > h2 { width: 100%; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
-  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 10%; right: 0; border-bottom: 1px solid #e9ddcc; margin-bottom: 20px; }
+  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 5%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
-  #content > #mainMenu > ul > li > a { width: 100%; height: 100%; display: block; float: right; text-decoration: none; box-sizing: border-box; padding: 6px 0; /* 6px */ color: #FFFFFF; font-size: 1.55rem; /* 12px (1rem) */ font-weight: 400; }
+  #content > #mainMenu > ul > li > a { width: 100%; height: 100%; display: block; float: right; text-decoration: none; color: #FFFFFF; font-size: 1.55rem; /* 12px (1rem) */ font-weight: 400; }
   #content > #mainMenu > ul > li > a:hover { color: #ac926d; -ms-transform: scale(1.2); -webkit-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { display: none; }
-  #content > #portfolioBox { width: 100%; height: 100%; box-sizing: border-box; padding: 2% 25% 16.5%; /*background-image: url("../img/cap_b_left.png"); 
+  #content > #portfolioBox { width: 100%; height: auto; box-sizing: border-box; padding: 2% 25% 10%; /*background-image: url("../img/cap_b_left.png"); 
 background-position: top left;
 background-repeat: no-repeat;
 background-size: 30%; */ }
