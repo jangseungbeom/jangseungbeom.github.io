@@ -149,23 +149,14 @@
                 } // ul  
             } // #mainMenu
             >#menu{display: none;}
-             >#detailBox{
-                width: 100%;
-                height:auto; 
-                box-sizing: border-box;
-                padding: 2% 15% 0; 
-                /*background-image: url("../img/cap_b_left.png"); 
-                background-position: top left;
-                background-repeat: no-repeat;
-                background-size: 30%; */
-                 >div{width: 100%; height: 350px; border: 1px solid #e1e1e1;
+             >#detailBox{width: 1024px; height: 350px; border: 1px solid #e1e1e1; margin: 0 auto;
                      >img{max-width: 100%; height: 100%; float:left;}
-                     >ul{width: 648px; height: 100%; float: left; box-sizing: border-box; padding:40px 20px 20px 40px; 
-                         >li{color: #101010; font-size: 1.5rem; text-align: left; font-weight:bold;
+                     >ul{width: 564px; height: 100%; float: left; box-sizing: border-box; padding:5% 2% 2% 5%; 
+                         >li{width: 80%; color: #101010; font-size: 1.5rem; text-align: left; font-weight:bold;
                             >strong{color: #101010; font-size: 1rem; font-weight: bold; text-align:left; margin-left: 10px; margin-right: 20px;}
                             >a{width:202px; height: 100%; color: #1e1e1e; font-size: 0.8rem; font-weight: normal; text-align: right; /*display: block; text-decoration: none;*/}
                         } // li
-                         >li:first-child{margin-bottom: 40px;}
+                         >li:first-child{font-size: 1.3rem; margin-bottom:5%;}
                           >li:nth-child(2){color: #101010; font-size:1rem; font-weight: normal; text-align: left; margin-bottom: 9px;}
                          >li:nth-child(3){color: #101010; font-size:1rem; font-weight: normal; text-align: left; margin-bottom: 9px;
                              >strong{margin-right: 30px;}
@@ -179,15 +170,15 @@
                                  >a{color: $white; font-weight: bold; transition: all 0.5s ease;}
                             } 
                          }   
-                    } // ul
-                } //div 
+                    } // ul 
             } //#detailBox
-            >#detailsImg{width: 100%; height: auto;
+            >#detailsImg{width: 100%; height: auto; position: relative;
                 >ul{width: 100%; height: auto; 
                     >li{width: 100%; height: auto; box-sizing: border-box; padding: 0 1.5%;
                         >img{max-width: 100%; height: auto; }
                     }
                  } // ul 
+                >img{width: 42.2vw; /*696px; */ height: auto; z-index: 100; position: absolute; top: 39.7%; left: 28.4%; }
             } // #detailsImg 
         } // #content
     #footBox{

@@ -117,8 +117,9 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
+  #content > #mainMenu > ul > li:nth-child(2) > a { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a { width: 100%; height: 100%; display: block; float: right; text-decoration: none; color: #FFFFFF; font-size: 1.55rem; /* 12px (1rem) */ font-weight: 400; }
-  #content > #mainMenu > ul > li > a:hover { color: #ac926d; -ms-transform: scale(1.2); -webkit-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+  #content > #mainMenu > ul > li > a:hover { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { display: none; }
   #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ background-image: url("../img/cap_b_left.png"); background-position: top left; background-repeat: no-repeat; background-size: 30%; }
@@ -144,17 +145,18 @@ html, body { height: 100%; margin: 0 auto; }
   #headBox .icon_box.open .menu_icon:before { top: 0; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
   #headBox .icon_box.open .menu_icon:after { top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
   #content { width: 100%; height: auto; }
-  #content > h2 { width: 100%; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
+  #content > h2 { width: auto; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
   #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 5%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
+  #content > #mainMenu > ul > li:nth-child(2) > a { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a { width: 100%; height: 100%; display: block; float: right; text-decoration: none; color: #FFFFFF; font-size: 1.55rem; /* 12px (1rem) */ font-weight: 400; }
-  #content > #mainMenu > ul > li > a:hover { color: #ac926d; -ms-transform: scale(1.2); -webkit-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+  #content > #mainMenu > ul > li > a:hover { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { display: none; }
   #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 10px; /*20px 10px */ /*     background-image: url("../img/cap_b_left.png");  background-position: top left; background-repeat: no-repeat; background-size: 30%; */ }
-  #content > #resumeBox > ul { width: 100%; height: 100%; }
+  #content > #resumeBox > ul { width: 100%; height: auto; }
   #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: center center; background-repeat: no-repeat; /*border: 1px solid $main;*/ }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 75vw; /* 1200px; */ margin-bottom: 40px; background-image: url("../img/inforgraphic/Infographic_rgb.png"); background-size: 95%; }
   #content > #resumeBox > ul > .resume_img02 { display: none; }

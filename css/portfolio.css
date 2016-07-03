@@ -13,7 +13,7 @@ html, body { height: 100%; margin: 0 auto; }
 
 @media screen and(min-width: 769px) and (max-width: 1024px) { @import "pc_1024_resume";
 }*/
-@media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; overflow-x: hidden; }
+@media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 20px; background-color: #e3bb82; }
   #headBox > h1 { width: 200px; /*100px*/ height: 50px; /* 90px */ }
   #headBox > h1 > a { width: 100%; height: 100%; display: block; margin-top: 20px; background-image: url("../img/name_logo.png"); background-position: top left; background-repeat: no-repeat; background-size: 100%; text-indent: -9999px; }
@@ -29,30 +29,31 @@ html, body { height: 100%; margin: 0 auto; }
   #headBox .icon_box.open .menu_icon:before { top: 0; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
   #headBox .icon_box.open .menu_icon:after { top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
   #content { width: 100%; height: auto; }
-  #content > h2 { width: 100%; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
+  #content > h2 { width: auto; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
   #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 5%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
+  #content > #mainMenu > ul > li:nth-child(3) > a { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a { width: 100%; height: 100%; display: block; float: right; text-decoration: none; color: #FFFFFF; font-size: 1.55rem; /* 12px (1rem) */ font-weight: 400; }
-  #content > #mainMenu > ul > li > a:hover { color: #ac926d; -ms-transform: scale(1.2); -webkit-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); }
+  #content > #mainMenu > ul > li > a:hover { color: #ac926d; font-size: 1.8rem; }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { display: none; }
   #content > #portfolioBox { width: 100%; height: auto; box-sizing: border-box; padding: 2% 25% 10%; /*background-image: url("../img/cap_b_left.png"); 
 background-position: top left;
 background-repeat: no-repeat;
 background-size: 30%; */ }
-  #content > #portfolioBox > ul { width: 100%; height: 250px; margin: 0; }
-  #content > #portfolioBox > ul > li { width: calc(100% / 3); height: 250px; float: left; }
+  #content > #portfolioBox > ul { width: 100%; height: 14.88vw; /*250px;*/ margin: 0; }
+  #content > #portfolioBox > ul > li { width: calc(100% / 3); height: 14.88vw; /*250px;*/ float: left; }
   #content > #portfolioBox > ul > li > a { width: 100%; height: 100%; float: left; color: transparent; }
   #content > #portfolioBox > .s_link > li:nth-child(1) { background-image: url("../img/ng_box.png"); background-repeat: no-repeat; background-size: 100%; }
   #content > #portfolioBox > .s_link > li:nth-child(2) { background-image: url("../img/sh_box.png"); background-repeat: no-repeat; background-size: 100%; }
   #content > #portfolioBox > .s_link > li:nth-child(3) { background-image: url("../img/bvs_box.png"); background-repeat: no-repeat; background-size: 100%; }
-  #content > #portfolioBox > .s_link > li > a:hover { background-color: rgba(9, 9, 9, 0.8); display: block; text-decoration: none; color: #FFFFFF; font-size: 1.2rem; font-weight: 100; text-align: center; box-sizing: border-box; padding: 115px 20px; }
+  #content > #portfolioBox > .s_link > li > a:hover { background-color: rgba(9, 9, 9, 0.8); display: block; text-decoration: none; color: #FFFFFF; font-size: 1.13vw; /*1.2rem;*/ font-weight: 100; text-align: center; box-sizing: border-box; padding: 6.845vw 1.2vw; /*115px 20px*/ }
   #content > #portfolioBox > .d_link > li:nth-child(1) { background-image: url("../img/ng_d.png"); background-repeat: no-repeat; background-size: 100%; }
   #content > #portfolioBox > .d_link > li:nth-child(2) { background-image: url("../img/sh_d.png"); background-repeat: no-repeat; background-size: 100%; }
   #content > #portfolioBox > .d_link > li:nth-child(3) { background-image: url("../img/bvs_d.png"); background-repeat: no-repeat; background-size: 100%; }
-  #content > #portfolioBox > .d_link > li > a:hover { background-color: rgba(9, 9, 9, 0.8); display: block; text-decoration: none; color: #FFFFFF; font-size: 1.2rem; font-weight: 100; text-align: center; box-sizing: border-box; padding: 115px 20px; }
+  #content > #portfolioBox > .d_link > li > a:hover { background-color: rgba(9, 9, 9, 0.8); display: block; text-decoration: none; color: #FFFFFF; font-size: 1.13vw; /*19px 1.2rem;*/ font-weight: 100; text-align: center; box-sizing: border-box; padding: 6.845vw 1.2vw; }
   #footBox { width: 100%; height: 40px; /* 40px */ margin: 0 auto; }
   #footBox > p { color: #080600; font-size: 0.75rem; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 20px; } }
 

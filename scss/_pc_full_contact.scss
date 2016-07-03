@@ -1,0 +1,173 @@
+#container{width: 100%; height: auto; margin: 0 auto; overflow-x: hidden;}
+        #headBox{
+            width: 100%; 
+            height: auto;
+            box-sizing: border-box; 
+            padding: 20px /* 40px */ 20px;
+            background-color: $main2;
+         >h1{
+            width:200px; /*100px*/
+            height: 50px; /* 90px */
+             >a{ 
+                width: 100%;
+                height: 100%;
+                display: block; 
+                margin-top: 20px;
+                background-image: url("../img/name_logo.png");
+                background-position: top left;
+                background-repeat: no-repeat;
+                background-size: 100%; 
+                text-indent: -9999px; 
+             }
+         }
+         
+          .icon_box{
+                z-index: 111;
+                width: 8.3333vw;
+                height: 8.3333vw;
+                margin: 0 auto;
+                top: 12.5vw; /* 60px */
+                right: 8.3333vw; /* 40px */
+                cursor: pointer;
+                position: absolute;
+                display: none;  
+                >.menu_icon{
+                -webkit-transition: all 0.4s ease-out;
+                transition: all 0.4s ease-out;    
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 8.3333vw; /* 40px */
+                height: 2px;
+                background-color:$main;
+                    
+                    &:before, &:after{
+                    -webkit-transition: all 0.25s ease-out;
+                    transition: all 0.25s ease-out;
+                    position: absolute;
+                    width: 8.3333vw /* 40px */;
+                    height: 2px;
+                    background-color:$main;
+                    content:'';}
+                    &:before{
+                        top: -2.0833vw /* -10px */;
+                        left: 0;}
+                    &:after{
+                        top: 2.0833vw /* 10px */;
+                        left: 0;}
+                  }//.icon
+                    
+                  &:hover{
+                    .menu_icon{
+                      background-color:$main2;
+                      &:before{
+                        top: -3.125vw /* -15px */;
+                        background-color: $main2;}
+                      &:after{
+                        top: 3.125vw /* 15px */;
+                        background-color:$main2;}
+                    }
+                  }
+                  &.open{
+                    .menu_icon{
+                      -webkit-transition: all 0.4s ease-out;
+                      transition: all 0.4s ease-out;    
+                      background-color: transparent;
+                      -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      &:before{
+                        top:0;
+                        -webkit-transform: rotate(45deg);
+                          transform: rotate(45deg);
+                      }
+                      &:after{
+                        top:0;
+                        -webkit-transform: rotate(-45deg);
+                          transform: rotate(-45deg);
+                      }
+                    }//.icon
+                  }//.icon_box .open
+                }//.icon_box /*menu_btn 이벤트*/
+         
+} //#headBox
+     #content{ width: 100%; 
+            height:auto;
+         >h2{
+            width: 100%;
+            height: 40px; /* 40px */
+            margin-top: 40px; /* 40px */ 
+            margin-left: 20px;
+            color: $black;
+            font-size: 2rem;
+            font-family: "Exo2"; 
+            font-weight: bold;
+         }
+            >#mainMenu{
+                width: 70%;
+                height: 54px; /* 54px */
+                position: absolute;
+                top: 5%;
+                right: 0;
+               /* border-bottom: 1px solid $main;*/
+                margin-bottom: 20px;
+                >ul{
+                    width: 100%;
+                    height: 100%;
+                    float: right;
+                    box-sizing: border-box;
+                    padding: 12px 20px 12px 20px;
+                    
+                    >li{
+                        width: 12vw; /* 180px */
+                        height: 100%;
+                        float: left;
+                        margin-right: 3.75vw; /* 60px; */ 
+                         text-align: center;
+                        &:last-child{margin-right: 0;}
+                        &:nth-child(4)>a{color: $main3; font-size: 1.8rem;
+                        }
+                        >a{ 
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            float:right;
+                            text-decoration: none;
+//                            box-sizing: border-box;
+//                            padding: 6px 0;  /*6px */
+                            color: $white;
+                            font-size: 1.55rem; /* 12px (1rem) */
+                            font-weight: 400;
+                            &:hover{
+                                color: $main3;
+                                font-size: 1.8rem;
+                            }
+                            &:active{color:$main3;}
+                        }// a
+                    } // li
+                } // ul  
+            } // #mainMenu
+            >#menu{display: none;}
+             >#contactBox{width: 100%; height: auto; box-sizing: border-box; padding: 5% 22%;
+                >ul{width: 100%; height: auto; border: 4px solid $main;
+                    padding: 10% 0;
+                    >li{width: 100%; height: auto; color: #101010; font-size: 1rem; font-weight: bold; text-align: center; margin-bottom: 10px; 
+                        >a{display: block; text-decoration: none; color: #101010; }
+                    &:first-child{font-size: 1.5rem; margin-bottom: 2px;} 
+                    &:nth-child(2){color: $main3;}   
+                    }
+                 } 
+         }
+        } // #content
+    #footBox{
+        width: 100%;
+        height: 40px; /* 40px */
+        margin: 0 auto;
+        >p{
+                color:$black2;
+                font-size: 0.75rem; /* 12pt, 0.75em */
+                text-align: center;
+                font-weight: 200;
+                margin-bottom: 20px;
+        }  
+} // #footBox
