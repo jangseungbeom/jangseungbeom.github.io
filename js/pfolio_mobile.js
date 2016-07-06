@@ -59,4 +59,18 @@ $(document).ready(function(){
                 }
             winResize();
         });
+    
+     /* 탑 버튼 */
+      $("#topButton").hide();
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 30) {
+                    $("#topButton").fadeIn();
+                } else {
+                    $("#topButton").fadeOut();
+                }
+            });
+            $("#topButton").on("click",function(){
+                $('html,body').animate({scrollTop: 0}, 800);
+                return false;
+            });
 });

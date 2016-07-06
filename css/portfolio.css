@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* color palette */
 @import url("https://fonts.googleapis.com/css?family=Exo+2:400,700,100");
 html, body { height: 100%; margin: 0 auto; }
@@ -55,6 +56,8 @@ background-size: 30%; */ }
   #content > #portfolioBox > .d_link > li:nth-child(3) { background-image: url("../img/bvs_d.png"); background-repeat: no-repeat; background-size: 100%; }
   #content > #portfolioBox > .d_link > li > a:hover { background-color: rgba(9, 9, 9, 0.8); display: block; text-decoration: none; color: #FFFFFF; font-size: 1.13vw; /*19px 1.2rem;*/ font-weight: 100; text-align: center; box-sizing: border-box; padding: 6.845vw 1.2vw; }
   #footBox { width: 100%; height: 40px; /* 40px */ margin: 0 auto; }
-  #footBox > p { color: #080600; font-size: 0.75rem; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 20px; } }
+  #footBox > p { color: #080600; font-size: 0.75rem; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 20px; }
+  /* top 버튼 */
+  #topButton { width: 50px; height: 50px; background-color: rgba(227, 187, 130, 0.5); border: 1px solid #ac926d; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22; color: #101010; font-size: 0.8rem; text-align: center; margin-bottom: 50px; margin-right: 25px; } }
 
 /*# sourceMappingURL=portfolio.css.map */

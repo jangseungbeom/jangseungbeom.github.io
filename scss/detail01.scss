@@ -5,25 +5,23 @@
 
 html, body{height: 100%; margin: 0 auto; }
 
-/*@media screen and(max-width: 480px){
-    @import"mos_480_resume";
-} //480px
+@media screen and(max-width: 480px){
+    @import"mos_480_details01";
+} 
 
 @media screen and(min-width: 481px) and (max-width: 640px) {
-   @import"tab_640_resume";
+   @import"tab_640_details01";
 }
 
 @media screen and(min-width: 641px) and (max-width: 768px) {
-   @import"tab_768_resume";
+   @import"tab_768_details01";
 }
 
 @media screen and(min-width: 769px) and (max-width: 1024px) {
-    @import "pc_1024_resume";
-}*/
+    @import "pc_1024_details01";
+}
 
 @media screen and(min-width: 1025px) {
      @import "pc_full_details01";
-//     @import "pc_full_details02";
-//     @import "pc_full_details03";
     
 }

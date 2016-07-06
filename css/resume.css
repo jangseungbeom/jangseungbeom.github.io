@@ -57,9 +57,9 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #menu > ul > li > a:active { color: #ac926d; }
   #content > #menu > ul > li:nth-child(even) { width: 100%; height: 0.4167vw; /* 4px */ background-image: url("../img/line_img.png"); background-position: center left; background-repeat: repeat; overflow: hidden; margin-bottom: 6.042vw; /* 29px */ opacity: 0.8; }
   #content > #menu > ul > li:last-child { margin-bottom: 100%; background: none; }
-  #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ background-image: url("../img/cap_b_left.png"); background-position: top left; background-repeat: no-repeat; background-size: 95%; }
+  #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ /* background-image: url("../img/cap_b_left.png");  background-position: top left; background-repeat: no-repeat; background-size: 95%; */ }
   #content > #resumeBox > ul { width: 100%; height: 100%; }
-  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: top center; background-repeat: no-repeat; border: 1px solid #e9ddcc; }
+  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: top center; background-repeat: no-repeat; /*border: 1px solid $main;*/ }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 265vw; /*1440px*/ margin-bottom: 8.3333vw; background-image: url("../img/inforgraphic/mo_resume.png"); background-size: 75%; }
   #content > #resumeBox > ul > .resume_img02 { width: 100%; height: 180vw; /* 960px */ background-image: url("../img/inforgraphic/mo_resume02.png"); background-size: 75%; }
   #footBox { width: 100%; height: 8.3333vw; /* 40px */ margin: 0 auto; }
@@ -161,6 +161,8 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 75vw; /* 1200px; */ margin-bottom: 40px; background-image: url("../img/inforgraphic/Infographic_rgb.png"); background-size: 95%; }
   #content > #resumeBox > ul > .resume_img02 { display: none; }
   #footBox { width: 100%; height: 40px; /* 40px */ margin: 0 auto; }
-  #footBox > p { color: #080600; font-size: 0.75rem; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 20px; } }
+  #footBox > p { color: #080600; font-size: 0.75rem; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 20px; }
+  #topButton { width: 50px; height: 50px; background-color: rgba(227, 187, 130, 0.5); border: 1px solid #ac926d; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22; color: #101010; font-size: 0.8rem; text-align: center; margin-bottom: 50px; margin-right: 25px; }
+  #topButton:hover { background-color: #e3bb82; } }
 
 /*# sourceMappingURL=resume.css.map */
