@@ -1,12 +1,12 @@
-#container{width: 100%; height: auto; margin: 0 auto; overflow-x: hidden;}
-       #headBox{
+#container{width: 100%; height: 100%; margin: 0 auto;}
+     #headBox{
             width: 100%; 
             height: auto;
             box-sizing: border-box; 
             padding: 20px /* 40px */ 20px;
             background-color: $main2;
          >h1{
-            width:200px; /*100px*/
+            width:26vw; /*200px; */
             height: 50px; /* 90px */
              >a{ 
                 width: 100%;
@@ -94,12 +94,12 @@
      #content{ width: 100%; 
             height:auto;
          >h2{
-            width: 100%;
+            width: auto;
             height: 40px; /* 40px */
             margin-top: 40px; /* 40px */ 
             margin-left: 20px;
             color: $black;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-family: "Exo2"; 
             font-weight: bold;
          }
@@ -107,7 +107,7 @@
                 width: 70%;
                 height: 54px; /* 54px */
                 position: absolute;
-                top: 6.5%;
+                top: 7%;
                 right: 0;
                /* border-bottom: 1px solid $main;*/
                 margin-bottom: 20px;
@@ -125,6 +125,7 @@
                         margin-right: 3.75vw; /* 60px; */ 
                          text-align: center;
                         &:last-child{margin-right: 0;}
+                        
                         >a{ 
                             width: 100%;
                             height: 100%;
@@ -134,14 +135,11 @@
 //                            box-sizing: border-box;
 //                            padding: 6px 0;  /*6px */
                             color: $white;
-                            font-size: 2vw;
+                            font-size: 2.5vw; /* 12px (1rem) */
                             font-weight: 400;
                             &:hover{
                                 color: $main3;
-                                -ms-transform: scale(1.2);
-                                -webkit-transform: scale(1.2);
-                                -o-transform: scale(1.2);
-                                transform: scale(1.2);
+                               font-size: 2.65vw;
                             }
                             &:active{color:$main3;}
                         }// a

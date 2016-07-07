@@ -1,5 +1,3 @@
-// mos_640_resume.scss
-
 #container{width: 100%; height: 100%; margin: 0 auto;}
      #headBox{
             width: 100%; 
@@ -136,55 +134,62 @@
                     } // li
                 } // ul  
             } // #menu
-             >#resumeBox{
+             >#portfolioBox{
                 width: 100%;
-                height: auto; 
+                height:121vw; 
                 box-sizing: border-box;
-                padding: 4.2vw  2.0833vw; /*20px 10px */ 
-               /* background-image: url("../img/cap_b_left.png"); 
+                padding: 2% 8% 2%;
+                margin-bottom: 5%;
+                /*background-image: url("../img/cap_b_left.png"); 
                 background-position: top left;
                 background-repeat: no-repeat;
-                background-size: 95%; */
+                background-size: 30%; */
                 >ul{
-                    width: 100%;
-                    height: 100%;
-                    >li{
-                        background-color: $white;
-                        background-position: top center;
-                        background-repeat: no-repeat;
-                        /*border: 1px solid $main;*/
-                    }
-                    >.resume_img01{
-                        width: 100%;
-                        height: 265vw; /*1440px*/
-                        margin-bottom: 8.3333vw;
-                        background-image: url("../img/inforgraphic/mo_resume.png");
-                        background-size: 75%;
-                    }
-                    >.resume_img02{
-                        width: 100%;
-                        height: 180vw; /* 960px */
-                        background-image: url("../img/inforgraphic/mo_resume02.png");
-                        background-size: 75%;
-                    }
+                    width: 50%;
+                    height: 117vw;/*250px;*/
+                    margin: 0;
+                    float: left;
+                    >li{width: 100%; height: 39vw;/*250px;*/  
+                        >a{width: 100%; height: 100%; 
+                         color:transparent; } // a
+                    }// li
                  } // ul
-            } //#resumeBox     
+                 >.s_link>li{float: left; 
+                     >a{float: left;}}
+                 >.s_link>li:nth-child(1){background-image: url("../img/ng_box.png"); background-repeat: no-repeat;
+                 background-size: 100%;}
+                 >.s_link>li:nth-child(2){background-image: url("../img/sh_box.png"); background-repeat: no-repeat;
+                 background-size: 100%;} 
+                 >.s_link>li:nth-child(3){background-image: url("../img/bvs_box.png"); background-repeat: no-repeat;
+                 background-size: 100%;} 
+                 >.s_link>li>a:hover{background-color: rgba(#090909, 0.8); display: block; text-decoration: none; color: $white; font-size: 2.8vw; /*1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 17.96vw 1.2vw; /*115px 20px*/}
+                 
+                 >.d_link>li{float: right;
+                     >a{float: right;}}
+                 >.d_link>li:nth-child(1){background-image: url("../img/ng_d.png"); background-repeat: no-repeat;
+                 background-size: 100%;}
+                 >.d_link>li:nth-child(2){background-image: url("../img/sh_d.png"); background-repeat: no-repeat;
+                 background-size: 100%;}
+                 >.d_link>li:nth-child(3){background-image: url("../img/bvs_d.png"); background-repeat: no-repeat;
+                 background-size: 100%;}
+                  >.d_link>li>a:hover{background-color: rgba(#090909, 0.8); display: block; text-decoration: none; color: $white; font-size: 2.8vw; /*19px 1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 17.96vw 1.2vw;}
+            } //#portfolioBox     
         } // #content
     #footBox{
         width: 100%;
-        height: 8.3333vw; /* 40px */
+        height: 40px; /* 40px */
         margin: 0 auto;
         >p{
                 color:$black2;
-                font-size: 0.1563vw; /* 12pt, 0.75em */
+                font-size: 0.75rem; /* 12pt, 0.75em */
                 text-align: center;
                 font-weight: 200;
-                margin-bottom: 2vw;
+                margin-bottom: 20px;
         }  
 } // #footBox
+
 /* top 버튼 */
-#topButton{width: 40px; height: 40px; background-color: rgba($main2, 0.5); border: 1px solid $main3; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22;
+#topButton{width: 50px; height: 50px; background-color: rgba($main2, 0.5); border: 1px solid $main3; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22;
     color: #101010; font-size: 0.8rem; text-align: center; 
-margin-bottom: 50px; margin-right: 15px;
-      &:hover{background-color: $main2;}
+margin-bottom: 50px; margin-right: 25px;
 }
