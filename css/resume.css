@@ -29,7 +29,7 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #menu > ul > li:last-child { margin-bottom: 100%; background: none; }
   #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ }
   #content > #resumeBox > ul { width: 100%; height: 100%; float: left; }
-  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: top center; background-repeat: no-repeat; border: 1px solid #e9ddcc; }
+  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: top center; background-repeat: no-repeat; }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 295vw; /*1440px*/ margin-bottom: 8.3333vw; background-image: url("../img/inforgraphic/mo_resume.png"); background-size: 85%; }
   #content > #resumeBox > ul > .resume_img02 { width: 100%; height: 200vw; /* 960px */ background-image: url("../img/inforgraphic/mo_resume02.png"); background-size: 85%; margin-bottom: 4vw; }
   #footBox { width: 100%; height: auto; /* 40px */ margin: 0 auto; margin-bottom: 20px; }
@@ -132,7 +132,7 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #menu { display: none; }
   #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ background-image: url("../img/cap_b_left.png"); background-position: top left; background-repeat: no-repeat; background-size: 30%; }
   #content > #resumeBox > ul { width: 100%; height: 100%; }
-  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: center center; background-repeat: no-repeat; border: 1px solid #e9ddcc; }
+  #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: center center; background-repeat: no-repeat; }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 65vw; margin-bottom: 8.3333vw; background-image: url("../img/inforgraphic/Infographic_rgb.png"); background-size: 95%; }
   #content > #resumeBox > ul > .resume_img02 { display: none; }
   #footBox { width: 100%; height: 8.3333vw; /* 40px */ margin: 0 auto; }
