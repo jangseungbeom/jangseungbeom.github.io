@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=960" />
+    <link rel="apple-touch-icon" href="#" />
+    <link rel="shortcut icon" type="image/x-icon" href="#" />
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/lib/reset.css" />
+    <link rel="stylesheet" href="./css/container.css" />
+<!--    <link rel="stylesheet" href="./materialize/css/materialize.min.css" />-->
+    <!--[if lte IE 9]>
+    <script src="./js/dist/html5shiv.min.js"></script>
+    <script src="./js/dist/ie9.min.js"></script>
+    <script src="./js/dist/PIE.js"></script>
+    <![endif]-->
+    <script src="./js/jquery/jquery-1.12.2.min.js"></script>
+    <script src="./js/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery/jquery-ui.min.js"></script>
+    <script src="./js/banner_slide.js"></script>
+    <script src="./js/one_page.js"></script>
+<!--    <script src="./materialize/js/materialize.min.js"></script>-->
+   
+    <title>National</title>
+    <script>
+         $(function(){
+            banner();  // 배너 슬라이드
+            $( "#tabs" ).tabs(); 
+            
+            onePage(); // 원페이지스크롤 형식
+        });
+    </script>
+    </head>
+<body>
+    <div id="container">
+            <div id="headBox">
+                <header id="naHead" class="na_box">
+                    <h1><a href="#"><span>National Geographic</span></a></h1>
+                    <div id="gnb">
+                        <ul>
+                            <li class="gnb_01"><a href=""><span>subcribe</span></a></li>
+                            <li class="gnb_02"><a href=""><span>sign</span></a></li>
+                            <li class="gnb_03"><a href=""><span>login</span></a></li>
+                        </ul>
+                    </div>
+                    <nav id="nav">
+                        <ul>
+                            <li><a href=""><span>about us</span></a></li>
+                            <li><a href=""><span>publication</span></a></li>
+                            <li><a href=""><span>photo contest</span></a></li>
+                            <li><a href=""><span>q&amp;a</span></a></li>
+                            <li><a href=""><span>guiddancedata</span></a></li>
+                        </ul>
+                    </nav>
+                </header> <!-- //header -->
+            </div><!-- // headBox -->               
+            <section id="naBanner" class="na_box">
+                <div class="na_btn na_left_btn">
+                   <button type="button">
+                       <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span>왼쪽버튼</span>
+                   </button>
+                </div>
+               <div class="na_btn na_right_btn">
+                   <button type="button">
+                       <i class="fa fa-angle-right" aria-hidden="true"></i>
+                       <span>오른쪽버튼</span>
+                    </button>
+                </div>    
+                <ul class="na_banner_box">
+                    <li class="banner_01"><span>banner_01</span></li>
+                    <li class="banner_02"><span>banner_02</span></li>
+                    <li class="banner_03"><span>banner_03</span></li>
+                    <li class="banner_04"><span>banner_04</span></li>
+                    <li class="banner_05"><span>banner_05</span></li>
+                </ul>
+                    <nav id="nav_02">
+                        <ul>
+                            <li>
+                                <a href="#newsBox">NEWS</a>
+                            </li>
+                            <li>
+                                <a href="#videoBox">VIDEO</a>
+                            </li>
+                            <li>
+                                <a href="#forumBox">FORUMS</a>
+                            </li>
+                            <li>
+                                <a href="#naFun">FUN</a>
+                            </li>
+                            <li>
+                                <a href="#preissuBox">PREVIOUS<br />ISSUES</a>
+                            </li>
+                        </ul>
+                    </nav><!-- // nav_02 -->
+                    <div id="naScroll_btn">
+                        <button type="button">
+                            <img src="./img/banner/banner_btn/scrollBtn.png" alt="스크롤 버튼">
+                            <span>스크롤을 내려주세요.</span>
+                        </button>
+                    </div>
+            </section><!-- // section -->
+            <div id="naSideNavi">
+                <ul>
+                    <li id="sb_01" class="na_sbar"><a href=""><span>맨 위로</span></a></li>
+                    <li id="sb_02" class="na_sbar"><a href=""><span>내셔널 지오그래픽 매거진 소개</span></a></li>
+                    <li id="sb_03" class="na_sbar"><a href=""><span>주요기사</span></a></li>
+                    <li id="sb_04" class="na_sbar"><a href=""><span>관련영상</span></a></li>
+                    <li id="sb_05" class="na_sbar"><a href=""><span>토론장</span></a></li>
+                    <li id="sb_06" class="na_sbar"><a href=""><span>독자 표지 투표</span></a></li>
+                    <li id="sb_07" class="na_sbar"><a href=""><span>지난 호 보기</span></a></li>
+                    <li id="sb_08" class="na_sbar"><a href=""><span>구독하기</span></a></li>
+                    <li id="sb_09" class="na_sbar"><a href=""><span>맨 아래로</span></a></li>
+                </ul>
+            </div>
+        <div id="aboutBox">
+            <div id="about" class="na_box">
+                <h2>ABOUT US</h2>
+                <h3>National geographic</h3>
+                <p>1888년 '인류의 지리지식 확장을 위하여'라는 기치아래 설립된 내셔널 지오그래픽 협회(National Geographic Society)는 학술지 형태로 창간된 
+이래, 뛰어난 사진작품과 사실적인 기사로 널리 알려진 세계적 명성의 다큐멘터리 잡지입니다.<br />
+ <br />
+이 잡지는 소수의 한정된 사람들만 지리지식을 독점해서는 안 되며 이러한 지식을 많은 사람들이 공유해야 한다는 협회의 기본 방침에 따라 모든 사람을 
+위한 잡지로 발행되기 시작했습니다. 지금은 세계의 지리뿐만 아니라 자연, 인류, 문화, 역사, 고고학, 생태, 환경, 우주에 이르는 다양한 분야를 심도 있
+는 종합교양지로 창간 128년이 지난 오늘날까지 계속 발행되고 있습니다.<br />
+<br />
+내셔널 지오그래픽은 128년간 지구의 수십억 년 역사를 진지하게 기록한 지구의 일기장입니다. 또한 미국 초/중/고등학교에서 학습 보조교재로 사용할 
+정도로 자연과 인류에 대한 다양한 정보를 담고있는 백과 사전식 잡지이며 품격 높은 교과서입니다. 살아 숨쉬는 대자연, 지구촌 곳곳의 숨겨진 모습을 
+사실감 넘치는 사진으로 재현해내는 내셔널 지오그래픽은 세계 다큐멘터리 사진 작가들의 이상이며 독자들에게는 높은 소장가치로 잡지 이상의 의미를 
+갖습니다. 재구독률 80%, 잡지 보존율 92%, 연속 구독기간 평균 13년(내셔널 지오그래픽 영문판 통계)... 내셔널 지오그래픽의 진정한 가치는 이러한 
+객관적인 수치로도 잘 알 수 있습니다. 또한 프랑스어, 독일어, 이탈리아어, 히브리어, 그리스어, 폴란드어, 스페인어, 중국어 등 23개 언어로 28개국에
+서 동시에 발행되어 세계인이 함께 읽는 글로벌 매거진입니다.현재 한국어로 내셔널 지오그래픽을 만나실 수 있습니다.
+</p>
+            </div><!-- // #about -->
+        </div><!-- //#aboutBox -->
+            <article id="article">
+                <div class="bg_banner_01 bg_img">
+                    <img class="main_banner01" src="./img/banner/01.png" alt="">
+                    <img class="main_banner02" src="./img/banner/02.png" alt="">
+                </div>
+            <div id="newsBox">    
+                <div id="na_news" class="na_box">
+                    <h2>NEWS</h2>
+                    <h3>
+                        <a href="#">Magazine</a>
+                        <p></p>
+                    </h3>
+                    <p class="news_date"><span>4, 2016</span></p>
+                    <a href="#">
+                        <dl>
+                            <dt class="main_news_img">
+                                <span>4월 호 기사 동물들을 위한 방주</span>
+                            </dt>
+                            <dd>동물들을 위한 <br />방주</dd>
+                            <dd>글 : 레이철 하티건 셰이   사진 : 조엘 사토리</dd>
+                            <dd>사진작가 조엘 사토리는 동물들이 
+멸종하기 전에 최대한 많은 녀석들을 
+사진에 담으려 하고 있다.</dd>
+                        </dl>
+                    </a>
+                    <ul>
+                        <li class="news_img1"><a href="#"><span>1</span></a></li>
+                        <li class="news_img2"><a href="#"><span>2</span></a></li>
+                        <li class="news_img3"><a href="#"><span>3</span></a></li>
+                        <li class="news_img4"><a href="#"><span>4</span></a></li>
+                    </ul>
+                </div><!-- //.naNews -->
+            </div>    
+                <div class="bg_banner_02 bg_img"></div>
+            <div id="videoBox">    
+                <div id="na_video" class="na_box">
+                   <h2>VIDEO</h2>
+                    <ul class="main_vd_box">
+                        <li class="main_vd">
+                            <iframe src="//assets.nationalgeographic.com/modules-video/assets/ngsEmbeddedVideo.html?guid=00000154-5844-d9b4-adde-dbeea0220000"  seamless="seamless" scrolling="no" frameborder="0">이 브라우저는 iframe을 지원하지 않습니다.
+                            </iframe>
+                            <div class="vd_info_box">
+                                <h3>How Old Is the Earth? How Do We Know?</h3>
+                                <p>How are scientists able to calculate the Earth's age?</p>
+                            </div>  
+                        </li>
+                    </ul>
+                    <ul class="na_vd_gallery">       
+                        <li class="vd_gall01 vg_box">
+                            <a href="#"><span>2</span></a>
+                        </li>
+                        <li class="vd_gall02 vg_box">
+                            <a href="#"><span>3</span></a>
+                        </li>
+                        <li class="vd_gall03 vg_box">
+                            <a href="#"><span>4</span></a>
+                        </li>
+                        <li class="vd_gall04 vg_box">
+                            <a href="#"><span>5</span></a>
+                        </li>
+                        <li class="vd_gall05 vg_box">
+                            <a href="#"><span>6</span></a>
+                        </li>
+                        <li class="vd_gall06 vg_box">
+                            <a href="#"><span>7</span></a>
+                        </li>
+                        <li class="vd_gall07 vg_box">
+                            <a href="#"><span>8</span></a>
+                        </li>
+                        <li class="vd_gall08 vg_box">
+                            <a href="#"><span>9</span></a>
+                        </li>
+                        <li class="vd_gall09 vg_box">
+                            <a href="#"><span>10</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- //#videoBox -->    
+                <div class="bg_banner_03 bg_img"></div>
+            <div id="forumBox">    
+                <div id="naForum" class="na_box">
+                    <h2>FORUMS</h2>
+                    <p>토론장</p>
+                    <p>주요 기사에 대한 여러분의 의견을 들려주세요.</p>
+                    <div class="forum_box_01">
+                        <a class="forum1" href="#">생사의 경계를 넘어</a>
+                        <a class="forum2" href="#">동물들을 위한 방주</a>
+                    </div><!-- // .foBox_01 -->
+                    <div class="forum_box_02">
+                        <ul>
+                            <li>
+                                <img src="./img/article/forums/fo_01/forum_img01.png" alt="첫번째 토론 주제. 생사의 경계를 넘어"> 
+                            </li>
+                            <li><h3>생사의 경계를 넘어</h3></li>
+                            <li><p>많은 사람들이 임사체험을 했다고 보고하고 있습니다.<br /> 
+그들은 정말 죽었다가 다시 살아난 것일까요, 아니면 이 모든 <br />
+경험은 저산소증의 결과에 불과할까요?<br /> 
+여러분의 의견을 나눠주세요.</p></li>
+                            <li><button type="button">의견 남기기</button></li>
+                            <li><button type="button">기사 보러 가기</button></li>
+                        </ul>
+                    </div><!-- .foBox_02 -->
+                </div><!-- // .naForum -->
+            </div><!-- //#forumBox -->    
+                <div class="bg_banner_04 bg_img"></div>
+                <div id="naFun" class="na_box">
+                    <h2>FUN</h2>
+                    <p class="f_title">이번 호 표지는 ?</p>
+                    <p>다음 호 내셔널 지오 그래픽의 표지는 어떤 것이 될까요?<br />
+가장 마음에 드는 표지를 골라보세요!
+                    </p>
+                <div id="funBox">    
+                   <div id="coverImg">
+                       <ul>
+                           <li class="cover_01"><a href=""></a><br/>사진 : 사이먼 로버츠</li>
+                           <li class="cover_02"><a href=""></a><br/>사진 : 마이클 닉콜스</li>
+                           <li class="cover_03"><a href=""></a><br/>사진 : 조 리스</li>
+                       </ul>
+                   </div>
+                   <div id="coverPercent">
+                       <ul>
+                           <li>42.4&#37;</li>
+                           <li>21.2&#37;</li>
+                           <li>36.4&#37;</li>
+                       </ul>
+                   </div><!-- //#coverPercent -->
+                </div><!-- //#funBox -->
+            </div><!-- //#na_fun -->    
+                <div class="bg_banner_05 bg_img"></div>
+            <div id="preissuBox">    
+                <div id="naPreissu" class="na_box">
+                    <h2>PREVIOUS ISSUES</h2>
+                    <filedset>
+                        <input type="search" name="" id="" value="" />
+                        <button type="button">검색</button>
+                        <label for=""></label>
+                    </filedset>
+                    <ul class="cover_list">
+                        <li>
+                            <dl>
+                                <dd>
+                                    <a href="">
+                                        <img src="./img/article/previous_issu/cover/cover_2016/cover_16_april.png" alt="2016년 4월 호 입니다.">
+                                        <span>2016년 4월호 입니다.</span>
+                                    </a>
+                                </dd>
+                                <dt>4월호</dt>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dd>
+                                    <a href="">
+                                        <img src="./img/article/previous_issu/cover/cover_2016/cover_16_march.png" alt="2016년 3월 호입니다.">
+                                        <span>2016년 3월호 입니다.</span>
+                                    </a>
+                                </dd>
+                                <dt>3월호</dt>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dd>
+                                    <a href="">
+                                        <img src="./img/article/previous_issu/cover/cover_2016/cover_16_february.png" alt="2016년 2월호입니다.">
+                                        <span>2016년 2월호 입니다.</span>
+                                    </a>
+                                </dd>
+                                <dt>2월호</dt>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dd>
+                                    <a href="">
+                                        <img src="./img/article/previous_issu/cover/cover_2016/cover_16_january%20.png" alt="2016년 1월호입니다.">
+                                        <span>2016년 1월호 입니다.</span>
+                                    </a>
+                                </dd>
+                                <dt>1월호</dt>
+                            </dl>
+                        </li>
+                    <button type="button" class="more_btn">
+                        더 보기
+                     </button>
+                    </ul><!-- //.cover_list -->
+                </div>
+            </div><!-- //#preissuBox -->    
+                <div id="naSubcribe" class="na_box">
+                    <h2>national geographic</h2>
+                    <p>뛰어난 사진    작품과 사실적인 기사로 널리 알려진<br /> 
+세계적 명성의 다큐멘터리 잡지를 지금 만나보십시오.</p>
+               <button>구독하기</button>
+                </div>
+            </article><!-- //.article -->
+        <div id="footBox">    
+            <footer id="foot" class="na_box">
+                <h2>national geographic</h2>
+                <div id="fGnb">
+                    <ul class="na_add">
+                        <li>
+                            <a class="f_gnb01" href="">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="">이용자약관</a>
+                        </li>
+                        <li>
+                            <a href="">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="">패밀리사이트</a>
+                        </li>
+                        <li>
+                            <a href="">인재채용</a>
+                        </li>
+                        <li>
+                            <a href="">광고문의</a>
+                        </li>
+                    </ul>
+                </div>
+                <adress>
+                    <ul>
+                        <li>사업자등록번호 101-81-14655</li>
+                        <li>통신판매업신고번호 종로 제01-310호</li>
+                        <li>대표이사: 오재환</li><br />
+                        <li>서울시 종로구 종로 104 (종로2가) (주)와이비엠</li>
+                        <li>구독문의 02-2004-8800, FAX : 02-2000-0159</li>
+                        <li>Copyright ⓒ (주)YBM. All rights reserved.</li>
+                    </ul>
+                </adress>
+            </footer><!-- //.foot -->
+        </div><!-- //#footBox -->
+        <!-- design div -->
+<!--
+        <div class="des headerBox"></div>
+        <div class="des videoBox"></div>
+        <div class="des forums_01"></div>
+        <div class="des forums_02"></div>
+        <div class="des funBox"></div>
+        <div class="des articleBox"></div>
+        <div class="des footerBox"></div>
+-->
+    </div><!-- //#container -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
