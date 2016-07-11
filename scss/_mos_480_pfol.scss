@@ -172,7 +172,9 @@
                  background-size: 100%;}
                  >.d_link>li:nth-child(3){background-image: url("../img/bvs_d.png"); background-repeat: no-repeat;
                  background-size: 100%;}
-                  >.d_link>li>a:hover{background-color: rgba(#090909, 0.8); display: block; text-decoration: none; color: $white; font-size: 3.2vw; /*19px 1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 20vw 1.2vw;}
+                  >.d_link>li>a{background-color: rgba(#090909, 0.5); display: block; text-decoration: none; color: $white; font-size: 3.2vw; /*19px 1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 20vw 1.2vw;
+                     &:active{background-color: #090909; }
+                 }
             } //#portfolioBox     
         } // #content
     #footBox{

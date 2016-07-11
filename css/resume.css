@@ -88,7 +88,7 @@ html, body { height: 100%; margin: 0 auto; }
   #headBox .icon_box.open .menu_icon:after { top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
   #content { width: 100%; height: auto; }
   #content > h2 { width: auto; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 1.5rem; font-family: "Exo2"; font-weight: bold; }
-  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 7%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
+  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 5.5%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
@@ -103,7 +103,10 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 65vw; margin-bottom: 8.3333vw; background-image: url("../img/inforgraphic/Infographic_rgb.png"); background-size: 90%; }
   #content > #resumeBox > ul > .resume_img02 { display: none; }
   #footBox { width: 100%; height: 8.3333vw; /* 40px */ margin: 0 auto; }
-  #footBox > p { color: #080600; font-size: 0.1563vw; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 2vw; } }
+  #footBox > p { color: #080600; font-size: 0.1563vw; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 2vw; }
+  /* top 버튼 */
+  #topButton { width: 40px; height: 40px; background-color: rgba(227, 187, 130, 0.5); border: 1px solid #ac926d; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22; color: #101010; font-size: 0.8rem; text-align: center; margin-bottom: 50px; margin-right: 25px; }
+  #topButton:active { background-color: #e3bb82; } }
 @media screen and (min-width: 769px) and (max-width: 1024px) { #container { width: 100%; height: 100%; margin: 0 auto; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 20px; background-color: #e3bb82; }
   #headBox > h1 { width: 200px; /*100px*/ height: 50px; /* 90px */ }
@@ -121,7 +124,7 @@ html, body { height: 100%; margin: 0 auto; }
   #headBox .icon_box.open .menu_icon:after { top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
   #content { width: 100%; height: auto; }
   #content > h2 { width: 100%; height: 40px; /* 40px */ margin-top: 40px; /* 40px */ margin-left: 20px; color: #1b1b03; font-size: 2rem; font-family: "Exo2"; font-weight: bold; }
-  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 7%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
+  #content > #mainMenu { width: 70%; height: 54px; /* 54px */ position: absolute; top: 5%; right: 0; /* border-bottom: 1px solid $main;*/ margin-bottom: 20px; }
   #content > #mainMenu > ul { width: 100%; height: 100%; float: right; box-sizing: border-box; padding: 12px 20px 12px 20px; }
   #content > #mainMenu > ul > li { width: 12vw; /* 180px */ height: 100%; float: left; margin-right: 3.75vw; /* 60px; */ text-align: center; }
   #content > #mainMenu > ul > li:last-child { margin-right: 0; }
@@ -130,13 +133,16 @@ html, body { height: 100%; margin: 0 auto; }
   #content > #mainMenu > ul > li > a:hover { color: #ac926d; font-size: 2.65vw; }
   #content > #mainMenu > ul > li > a:active { color: #ac926d; }
   #content > #menu { display: none; }
-  #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ background-image: url("../img/cap_b_left.png"); background-position: top left; background-repeat: no-repeat; background-size: 30%; }
+  #content > #resumeBox { width: 100%; height: auto; box-sizing: border-box; padding: 4.2vw  2.0833vw; /*20px 10px */ }
   #content > #resumeBox > ul { width: 100%; height: 100%; }
   #content > #resumeBox > ul > li { background-color: #FFFFFF; background-position: center center; background-repeat: no-repeat; }
   #content > #resumeBox > ul > .resume_img01 { width: 100%; height: 65vw; margin-bottom: 8.3333vw; background-image: url("../img/inforgraphic/Infographic_rgb.png"); background-size: 95%; }
   #content > #resumeBox > ul > .resume_img02 { display: none; }
   #footBox { width: 100%; height: 8.3333vw; /* 40px */ margin: 0 auto; }
-  #footBox > p { color: #080600; font-size: 0.1563vw; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 2vw; } }
+  #footBox > p { color: #080600; font-size: 0.1563vw; /* 12pt, 0.75em */ text-align: center; font-weight: 200; margin-bottom: 2vw; }
+  /* top 버튼 */
+  #topButton { width: 40px; height: 40px; background-color: rgba(227, 187, 130, 0.5); border: 1px solid #ac926d; border-radius: 100%; position: fixed; bottom: 0; right: 0; z-index: 22; color: #101010; font-size: 0.8rem; text-align: center; margin-bottom: 50px; margin-right: 25px; }
+  #topButton:active { background-color: #e3bb82; } }
 @media screen and (min-width: 1025px) { #container { width: 100%; height: 100%; margin: 0 auto; }
   #headBox { width: 100%; height: auto; box-sizing: border-box; padding: 20px 20px; background-color: #e3bb82; }
   #headBox > h1 { width: 200px; /*100px*/ height: 50px; /* 90px */ }

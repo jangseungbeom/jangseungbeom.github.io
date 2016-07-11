@@ -149,7 +149,7 @@
                     height: 117vw;/*250px;*/
                     margin: 0;
                     float: left;
-                    >li{width: 100%; height: 39vw;/*250px;*/  
+                    >li{width: 100%; height: 38.5vw;/*250px;*/  
                         >a{width: 100%; height: 100%; 
                          color:transparent; } // a
                     }// li
@@ -172,7 +172,10 @@
                  background-size: 100%;}
                  >.d_link>li:nth-child(3){background-image: url("../img/bvs_d.png"); background-repeat: no-repeat;
                  background-size: 100%;}
-                  >.d_link>li>a:hover{background-color: rgba(#090909, 0.8); display: block; text-decoration: none; color: $white; font-size: 2.8vw; /*19px 1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 17.96vw 1.2vw;}
+                  >.d_link>li>a{background-color: rgba(#090909, 0.5); display: block; text-decoration: none; color: $white; font-size: 2.8vw; /*19px 1.2rem;*/ font-weight: 100; text-align:center; box-sizing: border-box; padding: 17.96vw 1.2vw;
+                      &:active{background-color: #090909; }
+                 }
+              
             } //#portfolioBox     
         } // #content
     #footBox{
